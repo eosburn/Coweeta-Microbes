@@ -16,6 +16,8 @@ DOC (dissolved organic carbon), MBC (microbial biomass carbon): ug C/gram dry so
 
 DON (dissolved organic nitrogen), MBN (microbial biomass nitrogen), TDN (total dissolved nitrogen), NH4, NO3: ug N/gram dry soil
 
+TC (Total Carbon), TN (Total Nitrogen): mg/g dry soil
+
 SIR (substrate-induced respiration): ug CO2-C/gram dry soil/day
 
 ## Authors
