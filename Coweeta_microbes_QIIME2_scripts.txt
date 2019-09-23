@@ -1,0 +1,130 @@
+#Coweeta Microbes QIIME2 scripts
+
+#Import sequence data
+
+qiime tools import \
+   --type EMPPairedEndSequences \
+   --input-path emp-paired-end-sequences \ #This should point to a folder that contains the forward reads, reverse reads, and barcodes .fasta files
+   --output-path emp-paired-end-sequences-16s.qza
+
+qiime tools import \
+  --type EMPSingleEndSequences \
+  --input-path emp-single-end-sequences \ #This should point to a folder that contains the reads, and barcodes .fasta files
+  --output-path emp-single-end-sequences-ITS.qza
+
+#Demultiplex
+
+qiime demux emp-paired \
+  --m-barcodes-file 16s_metadata.tsv \
+  --m-barcodes-column barcode-sequence \
+  --p-rev-comp-mapping-barcodes \
+  --i-seqs emp-paired-end-sequences-16s.qza \
+  --o-per-sample-sequences 16s_demux.qza 
+
+qiime demux emp-single \
+  --i-seqs emp-single-end-sequences-ITS.qza \
+  --m-barcodes-file ITS_metadata.tsv \
+  --p-rev-comp-mapping-barcodes \
+  --m-barcodes-column BarcodeSequence \
+  --o-per-sample-sequences ITS_demux.qza
+
+#DADA2
+
+qiime dada2 denoise-paired \
+  --i-demultiplexed-seqs 16s_demux.qza \
+  --p-trunc-len-f 0 \
+  --p-trunc-len-r 0 \
+  --o-table 16s_table.qza \
+  --o-representative-sequences 16s-rep-seqs.qza 
+
+qiime dada2 denoise-single \
+  --i-demultiplexed-seqs ITS_demux.qza \
+  --p-trunc-len 0 \
+  --o-representative-sequences ITS_rep-seqs.qza \
+  --o-table ITS_table.qza 
+
+#OTU Cluster
+
+qiime feature-table filter-samples \
+  --i-table 16s_table
+  --m-metadata-file 16s_metadata.tsv \
+  --p-where "Year='2018'" \
+  --o-filtered-table filtered_16s_table.qza
+
+qiime feature-table filter-seqs \
+  --i-seqs 16s_rep_seqs \
+  --i-table filtered_16s_table.qza \
+  --o-filtered-data filtered_16s_seqs.qza
+
+qiime vsearch cluster-features-de-novo
+  --i-table filtered_16s_table.qza \
+  --i-sequences filtered_16s_seqs.qza \
+  --p-perc-identity 97 \	
+  --o-clustered-table 16s_OTU_table.qza \
+  --o-clustered-sequences 16s_OTUs.qza
+
+qiime feature-table filter-samples \
+  --i-table ITS_table
+  --m-metadata-file ITS_metadata.tsv \
+  --p-where "Year='2018'" \
+  --o-filtered-table filtered_ITS_table.qza
+
+qiime feature-table filter-seqs \
+  --i-seqs ITS_rep_seqs \
+  --i-table filtered_ITS_table.qza \
+  --o-filtered-data filtered_ITS_seqs.qza
+
+qiime vsearch cluster-features-de-novo
+  --i-table filtered_ITS_table.qza \
+  --i-sequences filtered_ITS_seqs.qza \
+  --p-perc-identity 97 \	
+  --o-clustered-table ITS_OTU_table.qza \
+  --o-clustered-sequences ITS_OTUs.qza
+
+#Filter OTUs
+
+qiime feature-table filter-features \
+  --i-table 16s_OTU_table.qza \
+  --p-min-samples 2 \
+  --o-filtered-table 16s_filtered_OTU_table.qza 
+
+qiime feature-table filter-features \
+  --i-table ITS_OTU_table.qza \
+  --p-min-samples 2 \
+  --o-filtered-table ITS_filtered_OTU_table.qza 
+
+#Assign Taxonomy
+
+qiime feature-classifier classify-sklearn \
+  --i-classifier gg_99_classifier.qza \ #Need to have the Greengenes classifier imported into QIIME2
+  --i-reads 16s_OTUs.qza \
+  --o-classification classified_16s_OTUs.qza
+
+qiime feature-classifier classify-sklearn \
+  --i-classifier UNITE_99_classifier.qza \ #Need to have the UNITE classifier imported into QIIME2
+  --i-reads ITS_OTUs.qza \
+  --o-classification classified_ITS_OTUs.qza
+
+#Export .biom file
+
+qiime tools export \
+  --input-path 16s_filtered_OTU_table.qza \
+  --output-path 16s_filtered_OTU_table
+
+qiime tools export \
+  --input-path classified_16s_OTUs.qza \
+  --output-path classified_16s_OTUs #The text file from this output is the '16s_taxonomy.tsv' file for the next step. However, first the header of the first column in the file has to be changed to #OTUID before it can be added as metadata to the .biom OTU table
+
+biom add-metadata -i 16s_filtered_OTU_table/feature-table.biom -o 16s_table_with_taxonomy.biom --observation-metadata-fp 16s_taxonomy.tsv --sc-separated taxonomy
+
+qiime tools export \
+  --input-path ITS_filtered_OTU_table.qza \
+  --output-path ITS_filtered_OTU_table
+
+qiime tools export \
+  --input-path classified_ITS_OTUs.qza \
+  --output-path classified_ITS_OTUs #The text file from this output is the 'ITS_taxonomy.tsv' file for the next step. However, first the header of the first column in the file has to be changed to #OTUID before it can be added as metadata to the .biom OTU table
+
+biom add-metadata -i ITS_filtered_OTU_table/feature-table.biom -o ITS_table_with_taxonomy.biom --observation-metadata-fp ITS_taxonomy.tsv --sc-separated taxonomy
+
+
