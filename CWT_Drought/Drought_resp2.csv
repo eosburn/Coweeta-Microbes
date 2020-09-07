@@ -1,0 +1,25 @@
+Number,Watershed,Plot,Treatment,LandUse,Drought,Resp
+1,W14,W14P1,Reference - Control,Reference,Control,68.35
+2,W14,W14P2,Reference - Control,Reference,Control,52.68
+3,W14,W14P3,Reference - Control,Reference,Control,55.93
+4,W14,W14P4,Reference - Control,Reference,Control,55.36
+5,W14,W14P5,Reference - Control,Reference,Control,60.53
+6,W14,W14P6,Reference - Control,Reference,Control,51.03
+7,W14,W14P1,Reference - Drought,Reference,Drought,60.13
+8,W14,W14P2,Reference - Drought,Reference,Drought,67.47
+9,W14,W14P3,Reference - Drought,Reference,Drought,60.32
+10,W14,W14P4,Reference - Drought,Reference,Drought,56.32
+11,W14,W14P5,Reference - Drought,Reference,Drought,56.84
+12,W14,W14P6,Reference - Drought,Reference,Drought,52.52
+13,W6,W6P1,Disturbed - Control,Disturbed,Control,53.38
+14,W6,W6P2,Disturbed - Control,Disturbed,Control,66.05
+15,W6,W6P3,Disturbed - Control,Disturbed,Control,57.04
+16,W6,W6P4,Disturbed - Control,Disturbed,Control,58.03
+17,W6,W6P5,Disturbed - Control,Disturbed,Control,45.02
+18,W6,W6P6,Disturbed - Control,Disturbed,Control,42.83
+19,W6,W6P1,Disturbed - Drought,Disturbed,Drought,56.88
+20,W6,W6P2,Disturbed - Drought,Disturbed,Drought,60.76
+21,W6,W6P3,Disturbed - Drought,Disturbed,Drought,78.97
+22,W6,W6P4,Disturbed - Drought,Disturbed,Drought,54.9
+23,W6,W6P5,Disturbed - Drought,Disturbed,Drought,61.46
+24,W6,W6P6,Disturbed - Drought,Disturbed,Drought,52.8
