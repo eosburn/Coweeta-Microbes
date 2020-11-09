@@ -15,9 +15,9 @@ library(MASS)
 
 #Import and prepare data 
 
-setwd("C:/Users/ernie/Desktop/FD_isotopes")
+setwd("C:/Users/ernie/Desktop/Manuscripts/FD_isotopes")
 
-soil <- read.csv("C:/Users/ernie/Desktop/FD_isotopes/FD_microbesandprocesses.csv")
+soil <- read.csv("C:/Users/ernie/Desktop/Manuscripts/FD_isotopes/FD_microbesandprocesses.csv")
 
 Bac_otus <- "C:/Users/ernie/Desktop/Data/Chapter 2 Data/FD-16s-table-with-taxonomy-final.biom"
 
@@ -455,11 +455,33 @@ fung_beta <- fung_beta[-39,]
 
 soil$fung_beta <- fung_beta$V1
 
+bac_beta.1$eig[1]
+
 var1 <- round(bac_beta.1$eig[1]/sum(bac_beta.1$eig)*100,1)
 var2 <- round(bac_beta.1$eig[2]/sum(bac_beta.1$eig)*100,1)
 
 var1.1 <- round(fung_beta.1$eig[1]/sum(fung_beta.1$eig)*100,1)
 var2.1 <- round(fung_beta.1$eig[2]/sum(fung_beta.1$eig)*100,1)
+
+funguild <- read.csv("C:/Users/ernie/Desktop/Data/Chapter 2 Data/funguild_final_relabun.csv")
+
+funguild = setNames(data.frame(t(funguild[,-1])), funguild[,1])
+
+funguild3 <- cbind(funguild, sam_dataITS)
+
+head(funguild3)
+
+funguild3$AMEM <- funguild3$`Arbuscular Mycorrhizal`/funguild3$Ectomycorrhizal
+
+funguild3 <- funguild3[order(funguild3$Number),]
+
+myc <- funguild3[,c(25,29)]
+
+myc <- rbind(myc, "FD37" = c(37, NA))
+
+myc <- myc[-39,]
+
+soil$AMEM <- myc$AMEM
 
 #PCoA plots for supplement
 
@@ -628,7 +650,7 @@ summary(NH4.bestglm1$BestModel)
 
 #best subsets regression model for N mineralization -  community composition variables
 
-NH4reg2 <- data.frame(soil.2$MBC,soil.2$LAP,soil.2$NAG, soil.2$MBC.N,soil.2$fung_alpha, soil.2$fung_beta, soil.2$bac_alpha,soil.2$bac_beta,soil.2$FB,soil.2$rK, soil.2$gNmin) 
+NH4reg2 <- data.frame(soil.2$MBC,soil.2$LAP,soil.2$NAG, soil.2$MBC.N,soil.2$fung_alpha, soil.2$fung_beta, soil.2$bac_alpha,soil.2$bac_beta,soil.2$FB,soil.2$rK,soil.2$AMEM, soil.2$gNmin) 
 NH4.bestglm2 <-
   bestglm(Xy = NH4reg2,
           family = gaussian,
@@ -638,7 +660,7 @@ summary(NH4.bestglm2$BestModel)
 
 #Full best subsets regression model for N mineralization 
 
-NH4reg3 <- data.frame(soil.2$fung_alpha,soil.2$LAP,soil.2$NAG, soil.2$fung_beta, soil.2$bac_alpha,soil.2$bac_beta,soil.2$FB,soil.2$rK,soil.2$Moisture,soil.2$pH,soil.2$NH4,soil.2$NO3,soil.2$DOC,soil.2$DOC.TDN,soil.2$C.N,soil.2$MBC,soil.2$MBC.N, soil.2$gNmin) 
+NH4reg3 <- data.frame(soil.2$fung_alpha,soil.2$LAP,soil.2$AMEM,soil.2$NAG, soil.2$fung_beta, soil.2$bac_alpha,soil.2$bac_beta,soil.2$FB,soil.2$rK,soil.2$Moisture,soil.2$pH,soil.2$NH4,soil.2$NO3,soil.2$DOC,soil.2$DOC.TDN,soil.2$C.N,soil.2$MBC,soil.2$MBC.N, soil.2$gNmin) 
 NH4.bestglm3 <-
   bestglm(Xy = NH4reg3,
           family = gaussian,
@@ -652,7 +674,7 @@ aictab(cand.set=list(NH4.bestglm1$BestModel, NH4.bestglm2$BestModel),modnames=c(
 
 #Full dredge model for N-mineralization
 
-NH4fullreg <- lm(gNmin ~ Moisture+pH+NH4+NO3+DOC+DOC.TDN+C.N+MBC+MBC.N+LAP+NAG+FB+bac_alpha+fung_alpha+bac_beta+fung_beta+rK, data=soil.2,na.action=na.fail)
+NH4fullreg <- lm(gNmin ~ Moisture+pH+NH4+NO3+DOC+DOC.TDN+C.N+MBC+MBC.N+LAP+NAG+FB+bac_alpha+fung_alpha+bac_beta+fung_beta+rK+AMEM, data=soil.2,na.action=na.fail)
 stdz.model2 <- standardize(NH4fullreg,standardize.y = TRUE)
 res2<- dredge(stdz.model2, trace=2)
 avg2 <- model.avg(subset(res2, delta <= 4))
@@ -672,7 +694,7 @@ summary(NO3.bestglm1$BestModel)
 
 #best subsets regression model for Nitrification -  community composition variables
 
-NO3reg2 <- data.frame(soil.2$MBC,soil.2$MBC.N,soil.2$logAOA,soil.2$logAOB,soil.2$logCAOB,soil.2$fung_alpha, soil.2$fung_beta, soil.2$bac_alpha,soil.2$bac_beta,soil.2$FB,soil.2$rK, soil.2$gNit) 
+NO3reg2 <- data.frame(soil.2$MBC,soil.2$AMEM,soil.2$MBC.N,soil.2$logAOA,soil.2$logAOB,soil.2$logCAOB,soil.2$fung_alpha, soil.2$fung_beta, soil.2$bac_alpha,soil.2$bac_beta,soil.2$FB,soil.2$rK, soil.2$gNit) 
 NO3.bestglm2 <-
   bestglm(Xy = NO3reg2,
           family = gaussian,
@@ -682,7 +704,7 @@ summary(NO3.bestglm2$BestModel)
 
 #Full best subsets regression model for Nitrification
 
-NO3reg3 <- data.frame(soil.2$fung_alpha,soil.2$fung_beta,soil.2$MBN, soil.2$bac_alpha,soil.2$bac_beta,soil.2$FB,soil.2$rK,soil.2$Moisture,soil.2$pH,soil.2$NH4,soil.2$NO3,soil.2$DOC,soil.2$DOC.TDN,soil.2$C.N,soil.2$logAOA,soil.2$logAOB,soil.2$logCAOB,soil.2$MBC,soil.2$MBC.N, soil.2$gNit) 
+NO3reg3 <- data.frame(soil.2$fung_alpha,soil.2$AMEM,soil.2$fung_beta,soil.2$MBN, soil.2$bac_alpha,soil.2$bac_beta,soil.2$FB,soil.2$rK,soil.2$Moisture,soil.2$pH,soil.2$NH4,soil.2$NO3,soil.2$DOC,soil.2$DOC.TDN,soil.2$C.N,soil.2$logAOA,soil.2$logAOB,soil.2$logCAOB,soil.2$MBC,soil.2$MBC.N, soil.2$gNit) 
 NO3.bestglm3 <-
   bestglm(Xy = NO3reg3,
           family = gaussian,
@@ -696,7 +718,7 @@ aictab(cand.set=list(NO3.bestglm1$BestModel, NO3.bestglm2$BestModel,NO3.bestglm3
 
 #Full dredge model for Nitrification
 
-NO3fullreg <- lm(gNit ~ Moisture+pH+NH4+NO3+DOC+DOC.TDN+C.N+logAOA+logAOB+logCAOB+MBC+MBC.N+FB+bac_alpha+fung_alpha+bac_beta+fung_beta+rK, data=soil.2,na.action=na.fail)
+NO3fullreg <- lm(gNit ~ Moisture+pH+NH4+NO3+AMEM+DOC+DOC.TDN+C.N+logAOA+logAOB+logCAOB+MBC+MBC.N+FB+bac_alpha+fung_alpha+bac_beta+fung_beta+rK, data=soil.2,na.action=na.fail)
 stdz.model3 <- standardize(NO3fullreg,standardize.y = TRUE)
 res3<- dredge(stdz.model3, trace=2)
 avg3 <- model.avg(subset(res3, delta <= 4))
@@ -829,25 +851,27 @@ names(soil.3)[names(soil.3)== "Nit"] <- "Net Nitrification"
 
 names(soil.3)[names(soil.3) == "C.N"] <- "C:N"
 
+names(soil.3)[names(soil.3) == "AMEM"] <- "AM:ECM"
+
 library(corrplot)
 library(RColorBrewer)
 scalebluered <- colorRampPalette(brewer.pal(8, "RdBu"))(8)
 
-Corr <- cor(soil.3[,c(6,7,8,10,13,15,19,9,11,26,39,40,49,32,33,31,34,35,36,37,38,21,24,30,44,45,46,47,48)], use="complete.obs", method="pearson")
+Corr <- cor(soil.3[,c(6,7,8,10,13,15,19,9,11,26,39,40,50,32,33,31,34,35,36,37,38,21,24,30,44,45,46,47,48,49)], use="complete.obs", method="pearson")
 
-res1 <- cor.mtest(soil.3[,c(6,7,8,10,13,15,19,9,11,26,39,40,49,32,33,31,34,35,36,37,38,21,24,30,44,45,46,47,48)], conf.level = .95)
+res1 <- cor.mtest(soil.3[,c(6,7,8,10,13,15,19,9,11,26,39,40,50,32,33,31,34,35,36,37,38,21,24,30,44,45,46,47,48,49)], conf.level = .95)
 
 jpeg(filename="correlogram.jpeg", bg="transparent", res=500, units = "in", height=7, width=7) 
 
-corrplot(Corr, method="color", col=scalebluered,number.cex=.35, addCoef.col = "black",  type="upper",cl.cex=1, tl.cex=.75, tl.col="black", tl.srt=45,sig.level=0.05,p.mat = res1$p, insig = "blank")
+corrplot(Corr, method="color", col=scalebluered,number.cex=.35, addCoef.col = "black",  type="upper",cl.cex=1, tl.cex=.7, tl.col="black", tl.srt=45,sig.level=0.05,p.mat = res1$p, insig = "blank")
 
 dev.off()
 
 #C mineralization correlations
 
-Corr2 <- cor(soil.3[,c(26,21,24,32,33,35, 30,44, 45,46,47,48)], use="complete.obs", method="pearson")
+Corr2 <- cor(soil.3[,c(26,21,24,32,33,35, 30,44, 45,46,47,49)], use="complete.obs", method="pearson")
 
-res2 <- cor.mtest(soil.3[,c(26,21,24,32,33,35, 30,44, 45,46,47,48)], conf.level = .95)
+res2 <- cor.mtest(soil.3[,c(26,21,24,32,33,35, 30,44, 45,46,47,49)], conf.level = .95)
 
 jpeg(filename="CO2correlogram.jpeg", bg="transparent", res=500, units = "in", height=1.5, width=6) 
 
@@ -857,37 +881,37 @@ dev.off()
 
 #N mineralization correlations
 
-Corr3 <- cor(soil.3[,c(40,21,24, 31,34, 30,44, 45,46,47,48)], use="complete.obs", method="pearson")
+Corr3 <- cor(soil.3[,c(40,21,24, 31,34, 48,30,44, 45,46,47,49)], use="complete.obs", method="pearson")
 
-res3 <- cor.mtest(soil.3[,c(40,21,24, 31,34, 30,44, 45,46,47,48)], conf.level = .95)
+res3 <- cor.mtest(soil.3[,c(40,21,24, 31,34, 48,30,44, 45,46,47,49)], conf.level = .95)
 
-jpeg(filename="NH4correlogram.jpeg", bg="transparent", res=500, units = "in", height=1.5, width=5.5) 
+jpeg(filename="NH4correlogram.jpeg", bg="transparent", res=500, units = "in", height=1.5, width=6) 
 
-corrplot(Corr3[1,1:11, drop=FALSE], method="color", col=scalebluered, diag=FALSE, addCoef.col = "black",  type="upper",  tl.col="black",tl.srt=45, sig.level=0.05,p.mat = res3$p, insig = "blank", cl.pos='n')
+corrplot(Corr3[1,1:12, drop=FALSE], method="color", col=scalebluered, diag=FALSE, addCoef.col = "black",  type="upper",  tl.col="black",tl.srt=45, sig.level=0.05,p.mat = res3$p, insig = "blank", cl.pos='n')
 
 dev.off()
 
 #nitrification correlations
 
-Corr4 <- cor(soil.3[,c(39,21,24, 36,37,38, 30, 44,45,46,47,48)],use = "complete.obs", method="pearson")
+Corr4 <- cor(soil.3[,c(39,21,24, 36,37,38, 48,30, 44,45,46,47,49)],use = "complete.obs", method="pearson")
 
-res4 <- cor.mtest(soil.3[,c(39,21,24, 36,37,38, 30, 44,45,46,47,48)])
+res4 <- cor.mtest(soil.3[,c(39,21,24, 36,37,38,48, 30, 44,45,46,47,49)])
 
-jpeg(filename="NO3correlogram.jpeg", bg="transparent", res=500, units = "in", height=1.5, width=6.7)
+jpeg(filename="NO3correlogram.jpeg", bg="transparent", res=500, units = "in", height=1.5, width=6.5)
 
-corrplot(Corr4[1,1:12, drop=FALSE], method="color", col=scalebluered, diag=FALSE, addCoef.col = "black",  type="upper",  tl.col="black", tl.srt=45,sig.level=0.05,p.mat = res4$p, insig = "blank", cl.pos='n')
+corrplot(Corr4[1,1:13, drop=FALSE], method="color", col=scalebluered, diag=FALSE, addCoef.col = "black",  type="upper",  tl.col="black", tl.srt=45,sig.level=0.05,p.mat = res4$p, insig = "blank", cl.pos='n')
 
 dev.off()
 
 #Multifunctionality correlations
 
-Corr5 <- cor(soil.3[,c(49,21,24, 44,45,46,47,48)],use = "complete.obs", method="pearson")
+Corr5 <- cor(soil.3[,c(50,21,24, 48,30,44,45,46,47,49)],use = "complete.obs", method="pearson")
 
-res5<- cor.mtest(soil.3[,c(49,21,24, 44,45,46,47,48)])
+res5<- cor.mtest(soil.3[,c(50,21,24,48,30, 44,45,46,47,49)])
 
 jpeg(filename="Mcorrelogram.jpeg", bg="transparent", res=500, units = "in", height=1.5, width=6)
 
-corrplot(Corr5[1,1:8, drop=FALSE], method="color", col=scalebluered, diag=FALSE, addCoef.col = "black",  type="upper",  tl.col="black", tl.srt=45,sig.level=0.05,p.mat = res5$p, insig = "blank", cl.pos='n')
+corrplot(Corr5[1,1:10, drop=FALSE], method="color", col=scalebluered, diag=FALSE, addCoef.col = "black",  type="upper",  tl.col="black", tl.srt=45,sig.level=0.05,p.mat = res5$p, insig = "blank", cl.pos='n')
 
 dev.off()
 
@@ -923,7 +947,7 @@ library(ppcor)
 
 #C mineralization partial correlations
 
-soil.4 <- soil.3[,c(6,7,8,10,13,15,19,9,11,26,39,40,49,32,33,31,34,35,36,37,38,21,24,30,44,45,46,47,48)]
+soil.4 <- soil.3[,c(6,7,8,10,13,15,19,9,11,26,39,40,49,32,33,31,34,35,36,37,38,21,24,30,44,45,46,47,48,49)]
 
 pcor.test(soil.4[,10],soil.4[,14],soil.4[,c(1:7)],method="pearson")
 pcor.test(soil.4[,10],soil.4[,15],soil.4[,c(1:7)],method="pearson")
@@ -935,10 +959,10 @@ pcor.test(soil.4[,10],soil.4[,25],soil.4[,c(1:7)],method="pearson")
 pcor.test(soil.4[,10],soil.4[,26],soil.4[,c(1:7)],method="pearson")
 pcor.test(soil.4[,10],soil.4[,27],soil.4[,c(1:7)],method="pearson")
 pcor.test(soil.4[,10],soil.4[,28],soil.4[,c(1:7)],method="pearson")
-pcor.test(soil.4[,10],soil.4[,29],soil.4[,c(1:7)],method="pearson")
+pcor.test(soil.4[,10],soil.4[,30],soil.4[,c(1:7)],method="pearson")
 
-pcor2_coef <- read.csv("C:/Users/ernie/Desktop/FD_isotopes/pcorr_coef2.csv")
-pcor2_pval <- read.csv("C:/Users/ernie/Desktop/FD_isotopes/pcorr_pvalue2.csv")
+pcor2_coef <- read.csv("C:/Users/ernie/Desktop/Manuscripts/FD_isotopes/pcorr_coef2.csv")
+pcor2_pval <- read.csv("C:/Users/ernie/Desktop/Manuscripts/FD_isotopes/pcorr_pvalue2.csv")
 
 names(pcor2_coef)[names(pcor2_coef) == "MBC.N"] <- "MBC:MBN"
 
@@ -981,9 +1005,10 @@ pcor.test(soil.4[,12],soil.4[,26],soil.4[,c(1:7)],method="pearson")
 pcor.test(soil.4[,12],soil.4[,27],soil.4[,c(1:7)],method="pearson")
 pcor.test(soil.4[,12],soil.4[,28],soil.4[,c(1:7)],method="pearson")
 pcor.test(soil.4[,12],soil.4[,29],soil.4[,c(1:7)],method="pearson")
+pcor.test(soil.4[,12],soil.4[,30],soil.4[,c(1:7)],method="pearson")
 
-pcor3_coef <- read.csv("C:/Users/ernie/Desktop/FD_isotopes/pcorr_coef3.csv")
-pcor3_pval <- read.csv("C:/Users/ernie/Desktop/FD_isotopes/pcorr_pvalue3.csv")
+pcor3_coef <- read.csv("C:/Users/ernie/Desktop/Manuscripts/FD_isotopes/pcorr_coef3.csv")
+pcor3_pval <- read.csv("C:/Users/ernie/Desktop/Manuscripts/FD_isotopes/pcorr_pvalue3.csv")
 
 names(pcor3_coef)[names(pcor3_coef) == "MBC.N"] <- "MBC:MBN"
 
@@ -999,12 +1024,14 @@ names(pcor3_coef)[names(pcor3_coef) == "fung_beta"] <- "ITS (PCoA 1)"
 
 names(pcor3_coef)[names(pcor3_coef) == "r.K"] <- "16S (r:K)"
 
+names(pcor3_coef)[names(pcor3_coef) == "AM.ECM"] <- "AM:ECM"
+
 pcor3_c <- matrix.please(pcor3_coef)
 pcor3_p <- matrix.please(pcor3_pval)
 
 jpeg(filename="NH4correlogram2.jpeg", bg="transparent", res=500, units = "in", height=1.5, width=6) 
 
-corrplot(pcor3_c[1,1:11,drop=F], method="color", col=scalebluered, diag=FALSE, addCoef.col = "black",  type="upper",  tl.col="black",tl.srt=45, sig.level=0.05,p.mat = pcor3_p, insig = "blank", cl.pos='n')
+corrplot(pcor3_c[1,1:12,drop=F], method="color", col=scalebluered, diag=FALSE, addCoef.col = "black",  type="upper",  tl.col="black",tl.srt=45, sig.level=0.05,p.mat = pcor3_p, insig = "blank", cl.pos='n')
 
 dev.off()
 
@@ -1021,9 +1048,10 @@ pcor.test(soil.4[,11],soil.4[,26],soil.4[,c(1:7)],method="pearson")
 pcor.test(soil.4[,11],soil.4[,27],soil.4[,c(1:7)],method="pearson")
 pcor.test(soil.4[,11],soil.4[,28],soil.4[,c(1:7)],method="pearson")
 pcor.test(soil.4[,11],soil.4[,29],soil.4[,c(1:7)],method="pearson")
+pcor.test(soil.4[,11],soil.4[,30],soil.4[,c(1:7)],method="pearson")
 
-pcor4_coef <- read.csv("C:/Users/ernie/Desktop/FD_isotopes/pcorr_coef4.csv")
-pcor4_pval <- read.csv("C:/Users/ernie/Desktop/FD_isotopes/pcorr_pvalue4.csv")
+pcor4_coef <- read.csv("C:/Users/ernie/Desktop/Manuscripts/FD_isotopes/pcorr_coef4.csv")
+pcor4_pval <- read.csv("C:/Users/ernie/Desktop/Manuscripts/FD_isotopes/pcorr_pvalue4.csv")
 
 names(pcor4_coef)[names(pcor4_coef) == "MBC.N"] <- "MBC:MBN"
 
@@ -1039,12 +1067,14 @@ names(pcor4_coef)[names(pcor4_coef) == "fung_beta"] <- "ITS (PCoA 1)"
 
 names(pcor4_coef)[names(pcor4_coef) == "r.K"] <- "16S (r:K)"
 
+names(pcor4_coef)[names(pcor4_coef) == "AM.ECM"] <- "AM:ECM"
+
 pcor4_c <- matrix.please(pcor4_coef)
 pcor4_p <- matrix.please(pcor4_pval)
 
 jpeg(filename="NO3correlogram2.jpeg", bg="transparent", res=500, units = "in", height=1.5, width=6.7) 
 
-corrplot(pcor4_c[1,1:12,drop=F], method="color", col=scalebluered, diag=FALSE, addCoef.col = "black",  type="upper",  tl.col="black",tl.srt=45, sig.level=0.05,p.mat = pcor4_p, insig = "blank", cl.pos='n')
+corrplot(pcor4_c[1,1:13,drop=F], method="color", col=scalebluered, diag=FALSE, addCoef.col = "black",  type="upper",  tl.col="black",tl.srt=45, sig.level=0.05,p.mat = pcor4_p, insig = "blank", cl.pos='n')
 
 dev.off()
 
@@ -1058,9 +1088,10 @@ pcor.test(soil.4[,13],soil.4[,26],soil.4[,c(1:7)],method="pearson")
 pcor.test(soil.4[,13],soil.4[,27],soil.4[,c(1:7)],method="pearson")
 pcor.test(soil.4[,13],soil.4[,28],soil.4[,c(1:7)],method="pearson")
 pcor.test(soil.4[,13],soil.4[,29],soil.4[,c(1:7)],method="pearson")
+pcor.test(soil.4[,13],soil.4[,30],soil.4[,c(1:7)],method="pearson")
 
-pcor5_coef <- read.csv("C:/Users/ernie/Desktop/FD_isotopes/pcorr_coef5.csv")
-pcor5_pval <- read.csv("C:/Users/ernie/Desktop/FD_isotopes/pcorr_pvalue5.csv")
+pcor5_coef <- read.csv("C:/Users/ernie/Desktop/Manuscripts/FD_isotopes/pcorr_coef5.csv")
+pcor5_pval <- read.csv("C:/Users/ernie/Desktop/Manuscripts/FD_isotopes/pcorr_pvalue5.csv")
 
 names(pcor5_coef)[names(pcor5_coef) == "MBC.N"] <- "MBC:MBN"
 
@@ -1076,12 +1107,14 @@ names(pcor5_coef)[names(pcor5_coef) == "fung_beta"] <- "ITS (PCoA 1)"
 
 names(pcor5_coef)[names(pcor5_coef) == "r.K"] <- "16S (r:K)"
 
+names(pcor5_coef)[names(pcor5_coef) == "AM.ECM"] <- "AM:ECM"
+
 pcor5_c <- matrix.please(pcor5_coef)
 pcor5_p <- matrix.please(pcor5_pval)
 
 jpeg(filename="multicorrelogram2.jpeg", bg="transparent", res=500, units = "in", height=1.5, width=6.7) 
 
-corrplot(pcor5_c[1,1:9,drop=F], method="color", col=scalebluered, diag=FALSE, addCoef.col = "black",  type="upper",  tl.col="black",tl.srt=45, sig.level=0.05,p.mat = pcor5_p, insig = "blank", cl.pos='n')
+corrplot(pcor5_c[1,1:10,drop=F], method="color", col=scalebluered, diag=FALSE, addCoef.col = "black",  type="upper",  tl.col="black",tl.srt=45, sig.level=0.05,p.mat = pcor5_p, insig = "blank", cl.pos='n')
 
 dev.off()
 
@@ -1101,7 +1134,7 @@ multi.bestglm1 <-
           method = "exhaustive")
 summary(multi.bestglm1$BestModel)
 
-multireg2 <- data.frame(soil.2$MBC, soil.2$MBC.N, soil.2$fung_alpha, soil.2$fung_beta, soil.2$bac_alpha,soil.2$bac_beta,soil.2$FB,soil.2$rK, soil.2$Multifunctionality) 
+multireg2 <- data.frame(soil.2$MBC,soil.2$AMEM, soil.2$MBC.N, soil.2$fung_alpha, soil.2$fung_beta, soil.2$bac_alpha,soil.2$bac_beta,soil.2$FB,soil.2$rK, soil.2$Multifunctionality) 
 multi.bestglm2 <-
   bestglm(Xy = multireg2,
           family = gaussian,
@@ -1109,7 +1142,7 @@ multi.bestglm2 <-
           method = "exhaustive")
 summary(multi.bestglm2$BestModel)
 
-multireg3 <- data.frame(soil.2$Moisture, soil.2$pH, soil.2$NH4, soil.2$NO3, soil.2$DOC, soil.2$DOC.TDN, soil.2$C.N,soil.2$MBC, soil.2$MBC.N, soil.2$fung_alpha, soil.2$fung_beta, soil.2$bac_alpha,soil.2$bac_beta,soil.2$FB,soil.2$rK, soil.2$Multifunctionality) 
+multireg3 <- data.frame(soil.2$Moisture, soil.2$AMEM,soil.2$pH, soil.2$NH4, soil.2$NO3, soil.2$DOC, soil.2$DOC.TDN, soil.2$C.N,soil.2$MBC, soil.2$MBC.N, soil.2$fung_alpha, soil.2$fung_beta, soil.2$bac_alpha,soil.2$bac_beta,soil.2$FB,soil.2$rK, soil.2$Multifunctionality) 
 multi.bestglm3 <-
   bestglm(Xy = multireg3,
           family = gaussian,
@@ -1122,7 +1155,7 @@ library(arm)
 
 aictab(cand.set=list(multi.bestglm1$BestModel,multi.bestglm2$BestModel,multi.bestglm3$BestModel),modnames=c("soil","microbes","full"))
 
-multifullreg <- lm(Multifunctionality ~ Moisture+pH+NH4+NO3+DOC+DOC.TDN+C.N+MBC+MBC.N+FB+bac_alpha+fung_alpha+bac_beta+fung_beta+rK, data=soil.2,na.action=na.fail)
+multifullreg <- lm(Multifunctionality ~ Moisture+pH+NH4+NO3+AMEM+DOC+DOC.TDN+C.N+MBC+MBC.N+FB+bac_alpha+fung_alpha+bac_beta+fung_beta+rK, data=soil.2,na.action=na.fail)
 stdz.model4 <- standardize(multifullreg,standardize.y = TRUE)
 res4<- dredge(stdz.model4, trace=2)
 avg4 <- model.avg(subset(res4, delta <= 4))
@@ -1132,7 +1165,7 @@ avg4
 
 #Variable importance (dredge results) plot. Results in the .csv file were extracted from the dredge models above
 
-var_imp <- read.csv("C:/Users/ernie/Desktop/FD_isotopes/FD_varimp.csv")
+var_imp <- read.csv("C:/Users/ernie/Desktop/Manuscripts/FD_isotopes/FD_varimp.csv")
 
 var_impCO2 <- var_imp[c(1:6),]
 
@@ -1146,7 +1179,7 @@ bar_plotCO2varimp <- ggplot(var_impCO2, aes(x=as.factor(var_impCO2$var), y=var_i
   theme(legend.title = element_blank()) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   theme(axis.title=element_text(size=16)) +
-  theme(text=element_text(size=18)) +
+  theme(text=element_text(size=16)) +
   theme(axis.line.x=element_line(colour="black", size=.5)) + 
   theme(axis.line.y=element_line(colour="black", size=.5)) + 
   theme(axis.title.x=element_blank()) +
@@ -1168,7 +1201,7 @@ bar_plotNH4varimp <- ggplot(var_impNH4, aes(x=as.factor(var_impNH4$var), y=var_i
   theme(legend.title = element_blank()) +
   theme(legend.text = element_text(size=10)) +
   theme(axis.title=element_text(size=16)) +
-  theme(text=element_text(size=18)) +
+  theme(text=element_text(size=16)) +
   theme(axis.line.x=element_line(colour="black", size=.5)) + 
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   theme(axis.line.y=element_line(colour="black", size=.5)) + 
@@ -1191,7 +1224,7 @@ bar_plotNO3varimp <- ggplot(var_impNO3, aes(x=as.factor(var_impNO3$var), y=var_i
   theme(legend.title = element_blank()) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   theme(axis.title=element_text(size=16)) +
-  theme(text=element_text(size=18)) +
+  theme(text=element_text(size=16)) +
   theme(axis.line.x=element_line(colour="black", size=.5)) + 
   theme(axis.line.y=element_line(colour="black", size=.5)) + 
   theme(axis.title.x=element_blank()) +
@@ -1212,7 +1245,7 @@ bar_plotmultivarimp <- ggplot(var_impmulti, aes(x=as.factor(var_impmulti$var), y
   theme(legend.title = element_blank()) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   theme(axis.title=element_text(size=16)) +
-  theme(text=element_text(size=18)) +
+  theme(text=element_text(size=16)) +
   theme(axis.line.x=element_line(colour="black", size=.5)) + 
   theme(axis.line.y=element_line(colour="black", size=.5)) + 
   theme(axis.title.x=element_blank()) +
@@ -1221,9 +1254,9 @@ bar_plotmultivarimp <- ggplot(var_impmulti, aes(x=as.factor(var_impmulti$var), y
   coord_cartesian(ylim=c(0,1))
 bar_plotmultivarimp
 
-jpeg(filename="Figure3.jpeg", bg="transparent", res=500, units = "in", height=8, width=8) 
+jpeg(filename="Figure3.3.jpeg", bg="transparent", res=500, units = "in", height=8, width=8) 
 
-f4 <- plot_grid(bar_plotCO2varimp, bar_plotNH4varimp, bar_plotNO3varimp,bar_plotmultivarimp, ncol = 2, align="hv", label_size=20,label_y=1.05)
+f4 <- plot_grid(bar_plotCO2varimp, bar_plotNH4varimp, bar_plotNO3varimp,bar_plotmultivarimp, ncol = 2, align="hv", label_size=20,label_y=1.05, scale = 0.95)
 
 f4
 
@@ -1234,7 +1267,7 @@ dev.off()
 library(lavaan)
 
 sem <-      
-'gNmin ~  LAP + rK + MBC
+'gNmin ~  LAP + rK + MBC 
 CO2 ~rK +XYL +MBC
 gNit ~ logCAOB
 LAP ~  rK + MBC
@@ -1245,15 +1278,23 @@ logCAOB ~ rK + pH + DOC.TDN
 pH ~ Disturbance
 DOC.TDN ~ Disturbance'
 
-semFit<-sem(sem, data=soil.2, estimator = "ML") 
+soil.21 <- soil.2[,c(6,40,26,39,34,33,49,48,21,38,15)]
 
-summary(semFit,rsquare=T)
+soil.22 <- data.frame(scale(soil.21))
+
+soil.23 <- data.frame(cbind(soil.22, soil.2$Disturbance))
+
+colnames(soil.23)[12] <- "Disturbance"
+
+semFit<-sem(sem, data=soil.23, estimator="ML") 
+
+semsum <- summary(semFit,rsquare=T,standardized=T)
 
 T.boot <- bootstrapLavaan(semFit, R=1000, type="bollen.stine",
-                          FUN=fitMeasures, fit.measures=c("chisq","rmsea","cfi","srmr"))
+                          FUN=fitMeasures, fit.measures=c("rmsea","cfi","srmr"))
 summary(T.boot)
 
-semstd <- standardizedSolution(semFit)
+semstd <- standardizedSolution(semFit,type="std.all")
 
 semstd <- subset(semstd, pvalue<=0.05)
 

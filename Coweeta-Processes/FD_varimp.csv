@@ -1,25 +1,25 @@
 process,vartype,var,imp,coef
 C mineralization,Soil Properties,Moisture,0.99,0.61
-C mineralization,Microbial Community,MBC,0.41,0.13
+C mineralization,Microbial Community,Biomass,0.41,0.13
 C mineralization,Soil Properties,NO3,0.95,-0.32
 C mineralization,Microbial Community,16S (r:K),0.99,0.44
 C mineralization,Microbial Community,XYL,0.35,0.19
 C mineralization,Soil Properties,DOC,0.51,0.18
-N mineralization,Microbial Community,LAP,0.92,0.69
-N mineralization,Soil Properties,DOC:TDN,0.38,0.2
-N mineralization,Soil Properties,NO3,0.26,-0.11
-N mineralization,Microbial Community,NAG,0.26,0.1
-N mineralization,Soil Properties,Moisure,0.28,0.11
-N mineralization,Soil Properties,DOC,0.25,-0.1
+N mineralization,Microbial Community,LAP,0.88,0.69
+N mineralization,Microbial Community,AM:ECM,0.85,0.3
+N mineralization,Soil Properties,DOC:TDN,0.43,0.26
+N mineralization,Soil Properties,DOC,0.3,-0.18
+N mineralization,Soil Properties,NH4,0.28,0.19
+N mineralization,Microbial Community,Biomass,0.27,-0.18
 Nitrification,Soil Properties,NO3,1,0.7
-Nitrification,Soil Properties,pH,0.79,0.31
-Nitrification,Microbial Community,CAOB,0.41,0.17
-Nitrification,Microbial Community,ITS (PCoA 1),0.36,0.2
-Nitrification,Soil Properties,DOC,0.33,0.14
-Nitrification,Microbial Community,16S (r:K),0.28,-0.15
-Multifunctionality,Soil Properties,NH4,0.89,0.29
-Multifunctionality,Soil Properties,DOC,0.57,0.18
-Multifunctionality,Soil Properties,Moisture,1,0.46
+Nitrification,Soil Properties,pH,0.76,0.29
+Nitrification,Microbial Community,CAOB,0.46,0.17
+Nitrification,Microbial Community,16S (r:K),0.3,-0.16
+Nitrification,Soil Properties,DOC,0.33,0.15
+Nitrification,Soil Properties,C:N,0.28,0.1
+Multifunctionality,Soil Properties,NH4,0.91,0.29
+Multifunctionality,Soil Properties,DOC,0.52,0.12
+Multifunctionality,Soil Properties,Moisture,0.99,0.44
 Multifunctionality,Microbial Community,16S (r:K),0.95,0.35
-Multifunctionality,Soil Properties,DOC:TDN,0.34,-0.17
-Multifunctionality,Soil Properties,NO3,0.32,-0.14
+Multifunctionality,Soil Properties,pH,0.34,-0.17
+Multifunctionality,Microbial Community,AM:ECM,0.46,0.13
