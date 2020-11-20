@@ -1,0 +1,145 @@
+id	subject	category	response	treatment2	BarcodeSequence	LinkerPrimerSequence	Project	Site	LandUse	Plot	Elevation	Slope	Moisture	Drought	Day	Treatment
+80	Disturbed1-Control	Disturbed-Control-day1	Before Response	Before-Control-Dis		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P1	Low	5m	0	Control	1	Disturbed-Control
+93	Disturbed2-Control	Disturbed-Control-day1	Before Response	Before-Control-Dis		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P2	Low	25m	0	Control	1	Disturbed-Control
+106	Disturbed3-Control	Disturbed-Control-day1	Before Response	Before-Control-Dis		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P3	Low	50m	0	Control	1	Disturbed-Control
+119	Disturbed4-Control	Disturbed-Control-day1	Before Response	Before-Control-Dis		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P4	High	5m	0	Control	1	Disturbed-Control
+132	Disturbed5-Control	Disturbed-Control-day1	Before Response	Before-Control-Dis		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P5	High	25m	0	Control	1	Disturbed-Control
+145	Disturbed6-Control	Disturbed-Control-day1	Before Response	Before-Control-Dis		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P6	High	50m	0	Control	1	Disturbed-Control
+82	Disturbed1-Control	Disturbed-Control-day42	Before Response	Before-Control-Dis	TTACACAAAGGC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P1	Low	5m	0	Control	42	Disturbed-Control
+95	Disturbed2-Control	Disturbed-Control-day42	Before Response	Before-Control-Dis	TATCCAAGCGCA	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P2	Low	25m	0	Control	42	Disturbed-Control
+108	Disturbed3-Control	Disturbed-Control-day42	Before Response	Before-Control-Dis	GGTGAGCAAGCA	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P3	Low	50m	0	Control	42	Disturbed-Control
+121	Disturbed4-Control	Disturbed-Control-day42	Before Response	Before-Control-Dis	TTGCGGACCCTA	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P4	High	5m	0	Control	42	Disturbed-Control
+134	Disturbed5-Control	Disturbed-Control-day42	Before Response	Before-Control-Dis	TGCACAGTCGCT	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P5	High	25m	0	Control	42	Disturbed-Control
+147	Disturbed6-Control	Disturbed-Control-day42	Before Response	Before-Control-Dis	GGTTCATGAACA	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P6	High	50m	0	Control	42	Disturbed-Control
+2	Reference1-Control	Reference-Control-day1	Before Response	Before-Control-Ref		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P1	Low	5m	0	Control	1	Reference-Control
+15	Reference2-Control	Reference-Control-day1	Before Response	Before-Control-Ref		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P2	Low	25m	0	Control	1	Reference-Control
+28	Reference3-Control	Reference-Control-day1	Before Response	Before-Control-Ref		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P3	Low	50m	0	Control	1	Reference-Control
+41	Reference4-Control	Reference-Control-day1	Before Response	Before-Control-Ref		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P4	High	50m	0	Control	1	Reference-Control
+54	Reference5-Control	Reference-Control-day1	Before Response	Before-Control-Ref		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P5	High	25m	0	Control	1	Reference-Control
+67	Reference6-Control	Reference-Control-day1	Before Response	Before-Control-Ref		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P6	High	5m	0	Control	1	Reference-Control
+4	Reference1-Control	Reference-Control-day42	Before Response	Before-Control-Ref		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P1	Low	5m	0	Control	42	Reference-Control
+17	Reference2-Control	Reference-Control-day42	Before Response	Before-Control-Ref		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P2	Low	25m	0	Control	42	Reference-Control
+30	Reference3-Control	Reference-Control-day42	Before Response	Before-Control-Ref		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P3	Low	50m	0	Control	42	Reference-Control
+43	Reference4-Control	Reference-Control-day42	Before Response	Before-Control-Ref		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P4	High	50m	0	Control	42	Reference-Control
+56	Reference5-Control	Reference-Control-day42	Before Response	Before-Control-Ref		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P5	High	25m	0	Control	42	Reference-Control
+69	Reference6-Control	Reference-Control-day42	Before Response	Before-Control-Ref		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P6	High	5m	0	Control	42	Reference-Control
+81	Disturbed1-Drought	Disturbed-Drought-day1	Before Response	Before-Drought-Dis		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P1	Low	5m	1	Drought	1	Disturbed-Drought
+94	Disturbed2-Drought	Disturbed-Drought-day1	Before Response	Before-Drought-Dis		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P2	Low	25m	1	Drought	1	Disturbed-Drought
+107	Disturbed3-Drought	Disturbed-Drought-day1	Before Response	Before-Drought-Dis		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P3	Low	50m	1	Drought	1	Disturbed-Drought
+120	Disturbed4-Drought	Disturbed-Drought-day1	Before Response	Before-Drought-Dis		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P4	High	5m	1	Drought	1	Disturbed-Drought
+133	Disturbed5-Drought	Disturbed-Drought-day1	Before Response	Before-Drought-Dis		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P5	High	25m	1	Drought	1	Disturbed-Drought
+146	Disturbed6-Drought	Disturbed-Drought-day1	Before Response	Before-Drought-Dis		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P6	High	50m	1	Drought	1	Disturbed-Drought
+83	Disturbed1-Drought	Disturbed-Drought-day42	Before Response	Before-Drought-Dis	ACGACGCATTTG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P1	Low	5m	1	Drought	42	Disturbed-Drought
+96	Disturbed2-Drought	Disturbed-Drought-day42	Before Response	Before-Drought-Dis	AGAGCCAAGAGC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P2	Low	25m	1	Drought	42	Disturbed-Drought
+109	Disturbed3-Drought	Disturbed-Drought-day42	Before Response	Before-Drought-Dis	TAAATATACCCT	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P3	Low	50m	1	Drought	42	Disturbed-Drought
+122	Disturbed4-Drought	Disturbed-Drought-day42	Before Response	Before-Drought-Dis	GTCGTCCAAATG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P4	High	5m	1	Drought	42	Disturbed-Drought
+135	Disturbed5-Drought	Disturbed-Drought-day42	Before Response	Before-Drought-Dis	TTACTGTGGCCG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P5	High	25m	1	Drought	42	Disturbed-Drought
+148	Disturbed6-Drought	Disturbed-Drought-day42	Before Response	Before-Drought-Dis	TAACAATAATTC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P6	High	50m	1	Drought	42	Disturbed-Drought
+3	Reference1-Drought	Reference-Drought-day1	Before Response	Before-Drought-Ref		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P1	Low	5m	1	Drought	1	Reference-Drought
+16	Reference2-Drought	Reference-Drought-day1	Before Response	Before-Drought-Ref		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P2	Low	25m	1	Drought	1	Reference-Drought
+29	Reference3-Drought	Reference-Drought-day1	Before Response	Before-Drought-Ref		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P3	Low	50m	1	Drought	1	Reference-Drought
+42	Reference4-Drought	Reference-Drought-day1	Before Response	Before-Drought-Ref		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P4	High	50m	1	Drought	1	Reference-Drought
+55	Reference5-Drought	Reference-Drought-day1	Before Response	Before-Drought-Ref		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P5	High	25m	1	Drought	1	Reference-Drought
+68	Reference6-Drought	Reference-Drought-day1	Before Response	Before-Drought-Ref		TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P6	High	5m	1	Drought	1	Reference-Drought
+5	Reference1-Drought	Reference-Drought-day42	Before Response	Before-Drought-Ref	ACTTGGTGTAAG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P1	Low	5m	1	Drought	42	Reference-Drought
+18	Reference2-Drought	Reference-Drought-day42	Before Response	Before-Drought-Ref	CACGCAGTCTAC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P2	Low	25m	1	Drought	42	Reference-Drought
+31	Reference3-Drought	Reference-Drought-day42	Before Response	Before-Drought-Ref	CCGGACAAGAAG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P3	Low	50m	1	Drought	42	Reference-Drought
+44	Reference4-Drought	Reference-Drought-day42	Before Response	Before-Drought-Ref	TACTAACGCGGT	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P4	High	50m	1	Drought	42	Reference-Drought
+57	Reference5-Drought	Reference-Drought-day42	Before Response	Before-Drought-Ref	CAAACGCACTAA	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P5	High	25m	1	Drought	42	Reference-Drought
+70	Reference6-Drought	Reference-Drought-day42	Before Response	Before-Drought-Ref	TGAGTGGTCTGT	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P6	High	5m	1	Drought	42	Reference-Drought
+84	Disturbed1-Control	Disturbed-Control-day43	Early Response	Early-Control-Dis	ACCTACTTGTCT	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P1	Low	5m	0	Control	43	Disturbed-Control
+97	Disturbed2-Control	Disturbed-Control-day43	Early Response	Early-Control-Dis	CTCTGAGGTAAC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P2	Low	25m	0	Control	43	Disturbed-Control
+110	Disturbed3-Control	Disturbed-Control-day43	Early Response	Early-Control-Dis	AACAGTAAACAA	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P3	Low	50m	0	Control	43	Disturbed-Control
+123	Disturbed4-Control	Disturbed-Control-day43	Early Response	Early-Control-Dis	CCTTGACCGATG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P4	High	5m	0	Control	43	Disturbed-Control
+136	Disturbed5-Control	Disturbed-Control-day43	Early Response	Early-Control-Dis	TCGAGAGTTTGC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P5	High	25m	0	Control	43	Disturbed-Control
+149	Disturbed6-Control	Disturbed-Control-day43	Early Response	Early-Control-Dis	TCCACAGGGTTC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P6	High	50m	0	Control	43	Disturbed-Control
+86	Disturbed1-Control	Disturbed-Control-day45	Early Response	Early-Control-Dis	ACATGATATTCT	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P1	Low	5m	0	Control	45	Disturbed-Control
+99	Disturbed2-Control	Disturbed-Control-day45	Early Response	Early-Control-Dis	AGATGTCCGTCA	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P2	Low	25m	0	Control	45	Disturbed-Control
+112	Disturbed3-Control	Disturbed-Control-day45	Early Response	Early-Control-Dis	GGATACTCGCAT	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P3	Low	50m	0	Control	45	Disturbed-Control
+125	Disturbed4-Control	Disturbed-Control-day45	Early Response	Early-Control-Dis	AGCAGTGCGGTG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P4	High	5m	0	Control	45	Disturbed-Control
+138	Disturbed5-Control	Disturbed-Control-day45	Early Response	Early-Control-Dis	CCGGCGACAGAA	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P5	High	25m	0	Control	45	Disturbed-Control
+151	Disturbed6-Control	Disturbed-Control-day45	Early Response	Early-Control-Dis	CTAATCAGAGTG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P6	High	50m	0	Control	45	Disturbed-Control
+6	Reference1-Control	Reference-Control-day43	Early Response	Early-Control-Ref	CTTATTAAACGT	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P1	Low	5m	0	Control	43	Reference-Control
+19	Reference2-Control	Reference-Control-day43	Early Response	Early-Control-Ref	TATTTGATTGGT	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P2	Low	25m	0	Control	43	Reference-Control
+32	Reference3-Control	Reference-Control-day43	Early Response	Early-Control-Ref	CGGTATAGCAAT	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P3	Low	50m	0	Control	43	Reference-Control
+45	Reference4-Control	Reference-Control-day43	Early Response	Early-Control-Ref	GTCATGCTCCAG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P4	High	50m	0	Control	43	Reference-Control
+58	Reference5-Control	Reference-Control-day43	Early Response	Early-Control-Ref	TGAGTATGAGTA	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P5	High	25m	0	Control	43	Reference-Control
+71	Reference6-Control	Reference-Control-day43	Early Response	Early-Control-Ref	CTATATTATCCG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P6	High	5m	0	Control	43	Reference-Control
+8	Reference1-Control	Reference-Control-day45	Early Response	Early-Control-Ref	CCTACCATTGTT	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P1	Low	5m	0	Control	45	Reference-Control
+21	Reference2-Control	Reference-Control-day45	Early Response	Early-Control-Ref	TAATCCATAATC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P2	Low	25m	0	Control	45	Reference-Control
+34	Reference3-Control	Reference-Control-day45	Early Response	Early-Control-Ref	TTCGATGCCGCA	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P3	Low	50m	0	Control	45	Reference-Control
+47	Reference4-Control	Reference-Control-day45	Early Response	Early-Control-Ref	CTGACACGAATA	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P4	High	50m	0	Control	45	Reference-Control
+60	Reference5-Control	Reference-Control-day45	Early Response	Early-Control-Ref	GCGTTTGCTAGC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P5	High	25m	0	Control	45	Reference-Control
+73	Reference6-Control	Reference-Control-day45	Early Response	Early-Control-Ref	AATTAATATGTA	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P6	High	5m	0	Control	45	Reference-Control
+85	Disturbed1-Drought	Disturbed-Drought-day43	Early Response	Early-Drought-Dis	ACTGTGACGTCC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P1	Low	5m	1	Drought	43	Disturbed-Drought
+98	Disturbed2-Drought	Disturbed-Drought-day43	Early Response	Early-Drought-Dis	CATGTCTTCCAT	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P2	Low	25m	1	Drought	43	Disturbed-Drought
+111	Disturbed3-Drought	Disturbed-Drought-day43	Early Response	Early-Drought-Dis	GTGCCGGCCGAC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P3	Low	50m	1	Drought	43	Disturbed-Drought
+124	Disturbed4-Drought	Disturbed-Drought-day43	Early Response	Early-Drought-Dis	CAAACTGCGTTG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P4	High	5m	1	Drought	43	Disturbed-Drought
+137	Disturbed5-Drought	Disturbed-Drought-day43	Early Response	Early-Drought-Dis	CGACACGGAGAA	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P5	High	25m	1	Drought	43	Disturbed-Drought
+150	Disturbed6-Drought	Disturbed-Drought-day43	Early Response	Early-Drought-Dis	GGAGAACGACAC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P6	High	50m	1	Drought	43	Disturbed-Drought
+87	Disturbed1-Drought	Disturbed-Drought-day45	Early Response	Early-Drought-Dis	GCAACGAACGAG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P1	Low	5m	1	Drought	45	Disturbed-Drought
+100	Disturbed2-Drought	Disturbed-Drought-day45	Early Response	Early-Drought-Dis	TCGTTATTCAGT	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P2	Low	25m	1	Drought	45	Disturbed-Drought
+113	Disturbed3-Drought	Disturbed-Drought-day45	Early Response	Early-Drought-Dis	AATGTTCAACTT	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P3	Low	50m	1	Drought	45	Disturbed-Drought
+126	Disturbed4-Drought	Disturbed-Drought-day45	Early Response	Early-Drought-Dis	GCATATGCACTG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P4	High	5m	1	Drought	45	Disturbed-Drought
+139	Disturbed5-Drought	Disturbed-Drought-day45	Early Response	Early-Drought-Dis	CCTCACTAGCGA	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P5	High	25m	1	Drought	45	Disturbed-Drought
+152	Disturbed6-Drought	Disturbed-Drought-day45	Early Response	Early-Drought-Dis	CTACTCCACGAG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P6	High	50m	1	Drought	45	Disturbed-Drought
+7	Reference1-Drought	Reference-Drought-day43	Early Response	Early-Drought-Ref	GCTCGAAGATTC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P1	Low	5m	1	Drought	43	Reference-Drought
+20	Reference2-Drought	Reference-Drought-day43	Early Response	Early-Drought-Ref	TGTCAAAGTGAC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P2	Low	25m	1	Drought	43	Reference-Drought
+33	Reference3-Drought	Reference-Drought-day43	Early Response	Early-Drought-Ref	GACTCTGCTCAG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P3	Low	50m	1	Drought	43	Reference-Drought
+46	Reference4-Drought	Reference-Drought-day43	Early Response	Early-Drought-Ref	TACCGAAGGTAT	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P4	High	50m	1	Drought	43	Reference-Drought
+59	Reference5-Drought	Reference-Drought-day43	Early Response	Early-Drought-Ref	TATCATATTACG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P5	High	25m	1	Drought	43	Reference-Drought
+72	Reference6-Drought	Reference-Drought-day43	Early Response	Early-Drought-Ref	ACCGAACAATCC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P6	High	5m	1	Drought	43	Reference-Drought
+9	Reference1-Drought	Reference-Drought-day45	Early Response	Early-Drought-Ref	TCCGGCGGGCAA	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P1	Low	5m	1	Drought	45	Reference-Drought
+22	Reference2-Drought	Reference-Drought-day45	Early Response	Early-Drought-Ref	CCTCCGTCATGG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P2	Low	25m	1	Drought	45	Reference-Drought
+35	Reference3-Drought	Reference-Drought-day45	Early Response	Early-Drought-Ref	AGCTCTAGAAAC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P3	Low	50m	1	Drought	45	Reference-Drought
+48	Reference4-Drought	Reference-Drought-day45	Early Response	Early-Drought-Ref	GCTGCCCACCTA	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P4	High	50m	1	Drought	45	Reference-Drought
+61	Reference5-Drought	Reference-Drought-day45	Early Response	Early-Drought-Ref	AGATCGTGCCTA	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P5	High	25m	1	Drought	45	Reference-Drought
+74	Reference6-Drought	Reference-Drought-day45	Early Response	Early-Drought-Ref	CATTTCGCACTT	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P6	High	5m	1	Drought	45	Reference-Drought
+88	Disturbed1-Control	Disturbed-Control-day56	Late Response	Late-Control-Dis	TAGTTCGGTGAC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P1	Low	5m	0	Control	56	Disturbed-Control
+101	Disturbed2-Control	Disturbed-Control-day56	Late Response	Late-Control-Dis	TCAAGTCCGCAC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P2	Low	25m	0	Control	56	Disturbed-Control
+114	Disturbed3-Control	Disturbed-Control-day56	Late Response	Late-Control-Dis	GTCAGGTGCGGC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P3	Low	50m	0	Control	56	Disturbed-Control
+127	Disturbed4-Control	Disturbed-Control-day56	Late Response	Late-Control-Dis	ATATGTTCTCAA	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P4	High	5m	0	Control	56	Disturbed-Control
+140	Disturbed5-Control	Disturbed-Control-day56	Late Response	Late-Control-Dis	CCGATAAAGGTT	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P5	High	25m	0	Control	56	Disturbed-Control
+153	Disturbed6-Control	Disturbed-Control-day56	Late Response	Late-Control-Dis	GCATAAACGACT	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P6	High	50m	0	Control	56	Disturbed-Control
+90	Disturbed1-Control	Disturbed-Control-day84	Late Response	Late-Control-Dis	TAGTCTAAGGGT	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P1	Low	5m	0	Control	84	Disturbed-Control
+103	Disturbed2-Control	Disturbed-Control-day84	Late Response	Late-Control-Dis	ACCTCAGTCAAG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P2	Low	25m	0	Control	84	Disturbed-Control
+116	Disturbed3-Control	Disturbed-Control-day84	Late Response	Late-Control-Dis	CGCCGTACTTGC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P3	Low	50m	0	Control	84	Disturbed-Control
+129	Disturbed4-Control	Disturbed-Control-day84	Late Response	Late-Control-Dis	CCAACCCAGATC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P4	High	5m	0	Control	84	Disturbed-Control
+142	Disturbed5-Control	Disturbed-Control-day84	Late Response	Late-Control-Dis	AGCCGCGGGTCC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P5	High	25m	0	Control	84	Disturbed-Control
+155	Disturbed6-Control	Disturbed-Control-day84	Late Response	Late-Control-Dis	CGATGAATATCG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P6	High	50m	0	Control	84	Disturbed-Control
+10	Reference1-Control	Reference-Control-day56	Late Response	Late-Control-Ref	ACTAAAGCAAAC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P1	Low	5m	0	Control	56	Reference-Control
+23	Reference2-Control	Reference-Control-day56	Late Response	Late-Control-Ref	GTCCGTCCTGGT	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P2	Low	25m	0	Control	56	Reference-Control
+36	Reference3-Control	Reference-Control-day56	Late Response	Late-Control-Ref	AGCGCGGCGAAT	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P3	Low	50m	0	Control	56	Reference-Control
+49	Reference4-Control	Reference-Control-day56	Late Response	Late-Control-Ref	ACTCTGTAATTA	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P4	High	50m	0	Control	56	Reference-Control
+62	Reference5-Control	Reference-Control-day56	Late Response	Late-Control-Ref	CAATCATAGGTG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P5	High	25m	0	Control	56	Reference-Control
+75	Reference6-Control	Reference-Control-day56	Late Response	Late-Control-Ref	GTCACTCCGAAC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P6	High	5m	0	Control	56	Reference-Control
+12	Reference1-Control	Reference-Control-day84	Late Response	Late-Control-Ref	CGAGGCGAGTCA	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P1	Low	5m	0	Control	84	Reference-Control
+25	Reference2-Control	Reference-Control-day84	Late Response	Late-Control-Ref	AACTCAATAGCG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P2	Low	25m	0	Control	84	Reference-Control
+38	Reference3-Control	Reference-Control-day84	Late Response	Late-Control-Ref	CCACGAGCAGGC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P3	Low	50m	0	Control	84	Reference-Control
+51	Reference4-Control	Reference-Control-day84	Late Response	Late-Control-Ref	CAAAGGAGCCCG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P4	High	50m	0	Control	84	Reference-Control
+64	Reference5-Control	Reference-Control-day84	Late Response	Late-Control-Ref	CGCTGTGGATTA	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P5	High	5m	0	Control	84	Reference-Control
+77	Reference6-Control	Reference-Control-day84	Late Response	Late-Control-Ref	ACGACAACGGGC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P6	High	5m	0	Control	84	Reference-Control
+89	Disturbed1-Drought	Disturbed-Drought-day56	Late Response	Late-Drought-Dis	TTAATGGATCGG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P1	Low	5m	1	Drought	56	Disturbed-Drought
+102	Disturbed2-Drought	Disturbed-Drought-day56	Late Response	Late-Drought-Dis	CACACAAAGTCA	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P2	Low	25m	1	Drought	56	Disturbed-Drought
+115	Disturbed3-Drought	Disturbed-Drought-day56	Late Response	Late-Drought-Dis	TTGAACAAGCCA	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P3	Low	50m	1	Drought	56	Disturbed-Drought
+128	Disturbed4-Drought	Disturbed-Drought-day56	Late Response	Late-Drought-Dis	ATGTGCTGCTCG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P4	High	5m	1	Drought	56	Disturbed-Drought
+141	Disturbed5-Drought	Disturbed-Drought-day56	Late Response	Late-Drought-Dis	CAGGAACCAGGA	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P5	High	25m	1	Drought	56	Disturbed-Drought
+154	Disturbed6-Drought	Disturbed-Drought-day56	Late Response	Late-Drought-Dis	ATCGTAGTGGTC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P6	High	50m	1	Drought	56	Disturbed-Drought
+91	Disturbed1-Drought	Disturbed-Drought-day84	Late Response	Late-Drought-Dis	GTTTGAAACACG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P1	Low	5m	1	Drought	84	Disturbed-Drought
+104	Disturbed2-Drought	Disturbed-Drought-day84	Late Response	Late-Drought-Dis	TCATTAGCGTGG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P2	Low	25m	1	Drought	84	Disturbed-Drought
+117	Disturbed3-Drought	Disturbed-Drought-day84	Late Response	Late-Drought-Dis	TAAACCTGGACA	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P3	Low	50m	1	Drought	84	Disturbed-Drought
+130	Disturbed4-Drought	Disturbed-Drought-day84	Late Response	Late-Drought-Dis	TTAAGTTAAGTT	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P4	High	5m	1	Drought	84	Disturbed-Drought
+143	Disturbed5-Drought	Disturbed-Drought-day84	Late Response	Late-Drought-Dis	GGTAGTTCATAG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P5	High	25m	1	Drought	84	Disturbed-Drought
+156	Disturbed6-Drought	Disturbed-Drought-day84	Late Response	Late-Drought-Dis	ATGACTAAGATG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	6	Disturbed	W6P6	High	50m	1	Drought	84	Disturbed-Drought
+11	Reference1-Drought	Reference-Drought-day56	Late Response	Late-Drought-Ref	TAGGAACTCACC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P1	Low	5m	1	Drought	56	Reference-Drought
+24	Reference2-Drought	Reference-Drought-day56	Late Response	Late-Drought-Ref	TAAGGCATCGCT	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P2	Low	25m	1	Drought	56	Reference-Drought
+37	Reference3-Drought	Reference-Drought-day56	Late Response	Late-Drought-Ref	TAGCAGTTGCGT	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P3	Low	50m	1	Drought	56	Reference-Drought
+50	Reference4-Drought	Reference-Drought-day56	Late Response	Late-Drought-Ref	TCATGGCCTCCG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P4	High	50m	1	Drought	56	Reference-Drought
+63	Reference5-Drought	Reference-Drought-day56	Late Response	Late-Drought-Ref	GTTGGACGAAGG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P5	High	25m	1	Drought	56	Reference-Drought
+76	Reference6-Drought	Reference-Drought-day56	Late Response	Late-Drought-Ref	CGTTCTGGTGGT	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P6	High	5m	1	Drought	56	Reference-Drought
+13	Reference1-Drought	Reference-Drought-day84	Late Response	Late-Drought-Ref	TTCCAATACTCA	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P1	Low	5m	1	Drought	84	Reference-Drought
+26	Reference2-Drought	Reference-Drought-day84	Late Response	Late-Drought-Ref	TCAGACCAACTG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P2	Low	25m	1	Drought	84	Reference-Drought
+39	Reference3-Drought	Reference-Drought-day84	Late Response	Late-Drought-Ref	GCGTGCCCGGCC	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P3	Low	50m	1	Drought	84	Reference-Drought
+52	Reference4-Drought	Reference-Drought-day84	Late Response	Late-Drought-Ref	TGCGGCGTCAGG	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P4	High	50m	1	Drought	84	Reference-Drought
+65	Reference5-Drought	Reference-Drought-day84	Late Response	Late-Drought-Ref	CTTGCTCATAAT	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P5	High	5m	1	Drought	84	Reference-Drought
+78	Reference6-Drought	Reference-Drought-day84	Late Response	Late-Drought-Ref	CTAGCGTGCGTT	TATGGTAATTGTGTGYCAGCMGCCGCGGTAA	CWT	14	Reference	W14P6	High	5m	1	Drought	84	Reference-Drought
