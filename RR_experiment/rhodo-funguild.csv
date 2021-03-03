@@ -1,0 +1,571 @@
+OTU ID,RR33,RR34,RR35,RR36,RR37,RR38,RR39,RR40,RR41,RR42,RR43,RR44,RR45,RR46,RR47,RR48,RR49,RR50,RR51,RR52,RR53,RR54,RR55,RR56,RR57,RR58,RR59,RR60,RR61,RR62,RR63,RR64,Guild,Confidence Ranking
+b80f1f6e82a2e0b8aad2b69adf010c92,0,0,0,0,0,0,0,0,3,0,1,5,0,0,6,0,0,4,0,0,0,0,0,0,0,5,0,0,0,0,18,0,Arbuscular Mycorrhizal,Highly Probable
+765657c8079673b489b244e16270c175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,Arbuscular Mycorrhizal,Highly Probable
+20d91d773e018e060550d04d1117fa5c,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,3,0,0,0,0,0,0,0,0,0,0,0,0,2,11,Arbuscular Mycorrhizal,Highly Probable
+00c6b398da4fcb4967c129e89e6a8682,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,2,0,6,0,0,0,0,0,0,0,0,0,0,0,8,Arbuscular Mycorrhizal,Highly Probable
+6786e806bf82f0ee9636b0dd01d9b39e,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,Arbuscular Mycorrhizal,Highly Probable
+9e444303d77e726613215037494ce8b8,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Arbuscular Mycorrhizal,Highly Probable
+be0c8411dbf0baea5b3c19bb8e3d720f,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Arbuscular Mycorrhizal,Highly Probable
+fb4942e1ffb8e2149d63a2bc4ae0353f,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,Arbuscular Mycorrhizal,Highly Probable
+5eef5bdcc1400bec0a910e1da200ae32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Arbuscular Mycorrhizal,Highly Probable
+49d0f9798dff13fcf9e6e1b6df7e8153,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Arbuscular Mycorrhizal,Highly Probable
+a3c96910a0c34e0c3f35ea9c0295591f,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Arbuscular Mycorrhizal,Highly Probable
+2a9a918ebce70d1db2d63271aa6be5cf,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Arbuscular Mycorrhizal,Highly Probable
+5fddffbb801d30a1639c999e485de99c,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Arbuscular Mycorrhizal,Highly Probable
+de229dd826ecb980f9fce781f5a14e9c,0,0,0,0,0,0,0,1,0,0,0,0,249,1178,545,0,0,0,0,0,0,0,0,0,632,0,34,78,0,43,5,3,Ectomycorrhizal,Highly Probable
+e8ff3b15f9c86997f81a708d54d4f1e4,0,0,0,0,0,0,0,0,247,0,0,0,0,0,0,0,0,177,498,0,0,818,0,1013,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+88cc24c8ec828bc4bd3e6ef4718bcbbc,0,0,0,0,0,0,0,0,0,2390,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+25cb1df4ae0a82d21a3a9c25fc2f04ec,0,0,0,0,0,0,0,0,0,0,2363,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+c3fdc7e4de2cbc5add06b40ddb4dfc96,0,0,0,0,1129,0,0,0,0,0,0,0,2,0,0,0,20,0,0,0,0,0,519,0,0,0,0,0,489,0,0,0,Ectomycorrhizal,Highly Probable
+0a080b47267f654d3a3d01dfeed55129,0,0,0,0,0,0,0,0,762,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1318,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+5edbe3725f8fd5faace081a64daa4ed3,0,0,0,0,0,0,0,0,0,0,0,5,0,6,0,0,0,1036,0,0,0,0,0,0,0,0,269,102,0,0,0,0,Ectomycorrhizal,Highly Probable
+e342af177dd75684df6c123f97a685c9,0,0,0,0,0,0,0,0,0,0,0,0,62,0,0,0,0,0,0,0,0,0,0,0,0,702,128,40,0,0,0,53,Ectomycorrhizal,Highly Probable
+3c298e4eda6901b2b53e23a97ceb7bff,0,0,0,0,0,0,268,0,0,0,0,0,0,0,0,0,0,0,0,0,0,614,0,0,0,0,0,0,0,0,0,18,Ectomycorrhizal,Highly Probable
+cd259f2386eb6430836379e7267a8df5,0,0,0,0,0,63,0,0,0,0,0,0,0,0,0,0,0,21,0,0,87,0,0,0,0,0,0,0,715,0,0,0,Ectomycorrhizal,Highly Probable
+7b3b46c59617ccaed8efbcb8a95df95f,0,0,0,0,0,0,0,401,0,0,0,0,0,0,0,0,0,0,0,0,0,0,111,192,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+ff7468e22204bcd6ed9798244d683827,0,0,0,0,286,96,0,0,0,0,0,0,186,0,0,0,0,0,0,0,0,0,0,0,0,0,44,52,1,0,0,3,Ectomycorrhizal,Highly Probable
+1bdc7e1470e484b49cbd875697f84334,0,0,0,52,0,112,0,0,0,4,0,0,228,0,0,0,0,0,41,0,0,0,0,0,0,0,112,66,0,11,0,0,Ectomycorrhizal,Highly Probable
+f8a55845fe3ed9047167f29466b7da67,11,0,0,0,0,0,0,427,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,165,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+44d501e67e928771020629addd1a8d8c,0,585,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,Ectomycorrhizal,Highly Probable
+6a4a9083fb718294f9a33b1bfeacfea1,0,0,0,0,0,29,298,0,0,0,0,0,0,0,0,0,0,60,0,0,52,141,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+18636907b76df79a7cdcdb338144163c,0,0,0,0,0,0,421,0,0,0,0,0,0,0,0,0,0,0,0,0,0,141,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+42e846b5290be7dae6b5807eb16a5e92,0,0,0,0,125,0,0,0,0,0,0,0,0,0,0,0,417,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+a7239bf110c3ca0e2b3a05dc509f328a,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,23,52,0,434,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+c51c15265de8b3dc855802d6966dae1e,0,79,20,0,0,59,0,0,0,0,0,0,0,0,0,12,27,32,44,0,69,0,0,0,0,0,33,61,0,0,23,0,Ectomycorrhizal,Highly Probable
+18a28fbdaefee847225aa72def3ad6af,357,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51,0,0,0,0,0,0,0,35,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+2ab461d6433955ee574072a89ed49b00,49,0,0,0,48,4,0,0,0,0,0,54,0,0,0,0,11,0,0,0,0,0,0,11,0,0,82,131,0,0,0,0,Ectomycorrhizal,Highly Probable
+7fab53c6575df3542e4fa61cd6ee395b,0,0,0,117,0,0,0,0,0,0,0,0,238,0,0,0,0,0,26,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+ae32146848ad023921cb47b766f7971d,0,0,0,6,0,0,0,0,190,0,0,0,56,0,0,0,0,0,25,0,0,0,0,70,0,0,0,23,0,0,0,0,Ectomycorrhizal,Highly Probable
+54aa6ccca1ca22fc29809a9e26b0e1f1,0,119,0,0,0,0,8,0,0,0,0,134,0,0,0,0,0,0,0,0,0,57,0,0,0,0,0,0,17,0,0,0,Ectomycorrhizal,Highly Probable
+9d7e1313e92d9e9cea9db82bb495a937,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,301,0,0,8,0,0,0,0,Ectomycorrhizal,Highly Probable
+dd0682b27b70988fd8c246744c83b592,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,291,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+1a641fbe25268f575d7479b7c1b2453e,0,0,0,0,0,0,285,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+776f2a12651aab347fb5614328c27a5e,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,82,27,0,0,136,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+70ce2ad4a60645255e26ddbb6a348717,0,0,0,0,108,0,0,0,0,0,0,131,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+a9641b70ce768bace2ae7b233042fb4e,0,6,0,0,0,0,0,226,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,Ectomycorrhizal,Highly Probable
+49aa280866a659b782ba77f457837a4c,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,197,0,0,0,Ectomycorrhizal,Highly Probable
+e35d0091d048d66cdbf0d0d9548385cf,40,0,0,0,101,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,55,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+4020e0911e002c7ee8beaaf18f63366f,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,151,58,0,0,0,0,Ectomycorrhizal,Highly Probable
+b4aa992f671dc77beed5612f9ce1921c,0,169,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+e9c90d65e56dae136c7ed2aa796bda9d,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,177,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+e2c709a3d5a72da8469fa3aa3ef67d4d,61,0,0,6,0,0,0,0,44,0,0,0,0,0,0,0,27,0,0,0,30,0,20,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+620ab44b49df88d2c007e0d826885b08,8,0,0,0,6,0,0,0,12,0,0,0,16,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,135,0,0,0,Ectomycorrhizal,Highly Probable
+fd21d5870817c5f77b74cbff758019d9,55,0,0,0,36,0,0,0,0,0,0,0,0,0,0,0,37,0,2,0,0,0,0,28,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+3c523d87cc3ba25702249e763f65d586,0,0,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,116,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+a9bf9c27eb392a45b0c2c8e3561e819d,0,0,0,0,0,0,0,0,0,0,0,0,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+202f31bce9ee8b9813340cf24452584c,0,0,0,0,0,0,0,0,0,0,0,0,0,0,141,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+f412fb92caf6188578aafea2c0bd13af,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,36,0,0,0,0,0,34,46,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+ba42da7a5b6bb515cdc9473aa07d8e1a,0,0,0,0,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,Ectomycorrhizal,Highly Probable
+d3ebd693533bf902ff77bf62ccc9ec37,0,0,0,0,0,119,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+eda1b072514222fbc93fa4ec82fb1b7b,0,0,0,0,0,0,119,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+1d19b9d3149ef96240e58215fba893d6,13,0,0,0,14,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,62,16,2,0,0,0,Ectomycorrhizal,Highly Probable
+598e4a59b66a6fc42c9c1a108df33836,0,0,0,0,0,101,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+159b09ea0cc224b825328b69df1fb3c1,0,0,0,0,0,0,105,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+20aa0d2bea146f268a8a06b4beb21b8f,22,0,0,0,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,11,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+4a47437c1d57abd3f1d9742a69848798,0,19,0,0,51,0,0,10,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+174962691a24c7f33e9b99d9358eac9a,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,0,47,0,0,0,0,0,0,0,9,22,0,0,0,0,Ectomycorrhizal,Highly Probable
+522d15ab6026bf752f901119d9b861d3,11,0,0,4,43,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,3,0,0,0,7,0,Ectomycorrhizal,Highly Probable
+a9609dc1de188ac349f36b1b021db663,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+8402caed6aeca95d2137d6b2d3bb1457,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,7,13,0,36,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+63aa1dc00e9af2483b10d71aa7d2176a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,87,0,0,0,Ectomycorrhizal,Highly Probable
+567f9038e4f4ad74d1f9a57cc770d1d2,59,0,0,0,0,0,0,0,0,1,0,0,0,0,0,14,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+a6fa89ffe694b817e20449dbc38b0e5d,0,0,8,0,0,0,0,0,1,0,1,0,0,0,0,1,17,0,0,0,32,8,0,9,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+75f6ce18307b6250c49baa004aa9fc90,0,2,11,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,38,0,0,3,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+39ef38fc226e1e17ba477530a1a546c2,0,0,0,0,12,0,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+65ca5b4fe58a76d7f90ef95a2ceac5de,0,0,0,0,0,0,0,0,0,46,0,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+15c06f1079c2a0670d74e43c9c3b9cb9,0,0,0,25,0,0,0,0,23,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+67315513a1ab316a15b8a29bac1f9160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,Ectomycorrhizal,Highly Probable
+c82cdbe1e9944a6ed3ed82e286207877,0,0,5,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+5b312d467452ec442ad690f59ee8a307,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+7f481f582663da14ce415db4eb0501d7,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,25,Ectomycorrhizal,Highly Probable
+f4d095ff03b03777215c0922cf66ea34,0,0,0,0,0,0,0,0,0,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+179d7d9070c8fc26e13c490055ac1c9d,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,0,0,0,0,24,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+032d8f5d2c290cd15b65d5f4bdd368a7,0,22,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+14ce07080724a66705af9c47fef723c0,0,0,0,0,0,0,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+a1db92a81ae88d4d59f16a048b4b0a59,0,0,0,1,0,0,0,0,0,0,0,0,3,32,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+7476ee2577c7aa4f608a5cf6678eb0f8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,47,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+37ab4c8c2c9ea553cd74d8fc9c05f763,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+3b71b469699930d32e58dced3f4fa746,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,Ectomycorrhizal,Highly Probable
+3edd27ae43662989a56fa7b10119848c,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,20,0,0,0,0,0,0,0,9,Ectomycorrhizal,Highly Probable
+c547016a5722d164ae6523dfa9125248,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+ac53fd3f2b6a45307103c44182dec5d5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,39,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+eb71a6589eb476d1a703715b4a4dd2cc,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,21,0,0,0,0,0,0,0,12,0,0,Ectomycorrhizal,Highly Probable
+40af2651657be07bd72850e615a8baaa,0,0,0,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+9e527b71972604c1d23b13617591eb63,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,14,0,0,0,0,Ectomycorrhizal,Highly Probable
+cf5d01e18c69901c46b8b47487b5d2c6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+f73d4c69186f378ba0e15fbaf0334050,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,24,0,0,0,0,Ectomycorrhizal,Highly Probable
+382ca9b2f66e49bb7777b02ad19fa3de,0,0,0,0,0,0,0,0,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+50450aabc7b76a8b8463d55223a9ba38,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+9b4f26fc0f3740acd030590a5a5cfbec,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+c1e898e19144e1f388031cab04a24469,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,18,9,0,0,0,Ectomycorrhizal,Highly Probable
+884d583c31d56732815f2e00fdda0a5d,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,13,0,0,0,0,Ectomycorrhizal,Highly Probable
+ccf49e903923cec11466df139f817705,0,0,0,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+269b9f531eb5dc3af6131a076cc6a2a4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,7,22,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+9048d5304f8736a55f3c7bb58cd9beec,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,13,2,0,0,0,0,Ectomycorrhizal,Highly Probable
+3e027ba3fbc6d88c3f47d1be5b7e3fbb,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+aeeb7c462eff74b49886236102bc95b4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+35ad95f0daff92d4408b98de0bb6a5d0,0,0,5,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,7,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+014a3b8a60960536f7cbea8a5661f845,0,0,0,0,0,0,0,0,0,0,0,0,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+c9c362dec013f0fdf3aeabcfb2f7a43b,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,14,0,0,0,0,Ectomycorrhizal,Highly Probable
+ce68081f4bb4faeeb0f0de1a0ac0840a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+207459dcc17a5e7ab1279ada647906b7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,6,0,0,0,0,0,0,0,0,7,0,0,Ectomycorrhizal,Highly Probable
+8bcc630709c60faecf82d3033208d9de,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,14,0,0,0,0,Ectomycorrhizal,Highly Probable
+b317ad512a8ba8ad9adcf4546f5e5901,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+25b65f7403ff2bbe1c0e5eca5b44fbb7,0,0,0,0,10,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,0,0,Ectomycorrhizal,Highly Probable
+68ab3a8069cc0052c94b9eb986d2948e,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+bc2a1ff8732da87866986368633d8e1d,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,1,0,Ectomycorrhizal,Highly Probable
+f7831734aa029f595f6f1f200ed6c7a8,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+f2469959780cbded73cca5e2bc818916,0,0,0,3,0,0,0,0,0,0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+cc5063ff59efd91345fbbace2e96b2b9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,Ectomycorrhizal,Highly Probable
+d2fc0d87966e0eb72506d755caa9d1ee,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,0,0,0,Ectomycorrhizal,Highly Probable
+731397648199fcba3551bf22730bf90e,0,16,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+423df6d157f8fb6a46d11df7d1d35d0e,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+5b93b70af34367a6874f3b8ad0432138,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+70221b9a5615bef44f73cd3c1becde8d,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,5,0,0,0,0,Ectomycorrhizal,Highly Probable
+d376cba7f7563c49f9ccc56b08a41ec6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,10,0,0,0,0,Ectomycorrhizal,Highly Probable
+6cdb9a6351bc58c1a89cc78a0389acd5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+b1016c3ac195a53e1f131088936df726,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,4,0,0,0,0,Ectomycorrhizal,Highly Probable
+e68deba01be28ffea8daa5bc16b66662,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+0fbf736a528020ed9bee88c02afe2aad,5,0,0,0,0,0,0,0,0,1,7,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+528e02f11588e08fb9075c91cfa354f2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,6,0,0,0,0,Ectomycorrhizal,Highly Probable
+792128c5455ad5cee1016cdc43e2a4a7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+a117e7f3daf141468d3d150b2f96aa2d,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+aebb1151e5a7b7502c721b61983144a4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+bb2165347ad7162f867ebb3c8bb2492f,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,4,0,0,0,0,Ectomycorrhizal,Highly Probable
+569aaed31b8b087f1dc9af12f5832b4e,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+6542dd155e0e14ca2dabcb2514d1e29d,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+d419574baf9ab3844844c7b32b6de4e9,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Ectomycorrhizal,Highly Probable
+e982cc88eeffdf5f5d61a528491e309a,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,4,0,2,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+b1dacf4fb403f1e832278fb5a54688f5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+b657accf23e3013ad9a3d3cca8af482b,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+11c98f4d155ff446682c8a320815aa5f,0,7,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+65b7c26ab044b99a252b97bba9512cff,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+a5b906ebf85c5b302269e9657e1ccf7a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+b2a3db176d071968cf3dee7dd50bbcac,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,3,0,0,0,4,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+c845602e5b89fc518ba0011f356c8e32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+d9062f37afd7ec5ae4f7dd9d90049067,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+29224e438a6a915df8c6394cfde7e43e,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+9957142f30f97a8ec62e28db445587cb,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+bcdd1cd655a728d929f82b21ef452603,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+d8f4ef3e5b14557aaa0063102c35f671,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,6,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+fa2bb2981c8d6f14ee0223e2a56394f8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+61fd39c7c80a57c8d195cbdd40c94ee6,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+6d1b91956f1d621aeb1f2bba17e8e5f1,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+0c50de0ec99a87ecba2689a86ce09841,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,0,0,0,0,Ectomycorrhizal,Highly Probable
+1b6f4c411fc3ef90145167ca31e13257,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+55b6b4c045bee2a7643908aec3213dfe,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+582486acb786199960ba5c2737ac1766,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+5ec15dd8c9dce6efb5dbe2487d669b69,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+9df76f7e728af268fefb7ba6a2601b18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+bf228e53e295508c57d506277db7a928,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,2,0,0,0,0,Ectomycorrhizal,Highly Probable
+dd7582249c2d28a9d8a604c964cbeabe,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+fbedd39563a9fa222e1137a802617c2b,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+097238beab3f3a4366fffce1fb00b51e,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+1088314e2e1ee94f185fa5d46ce6751d,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+808b952d7eb70a6735b18cf8eafeae14,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+b099ac0379be6168c299e581c5aa05a6,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+d2082d35c1d160188f2594ab692d5b2d,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+0adfdab1a375cf80dbf165159087bce5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+463ade045c96110006164a1db1ee0b48,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,Ectomycorrhizal,Highly Probable
+73ff4e2001906c95e70bebba4e698da6,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+7e293b434f14251e3804749d5406c8e7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,3,Ectomycorrhizal,Highly Probable
+7fefbb4b0cb5895c6fe94dd89c8bfe70,0,0,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+00255268f0cf80ca88fee1d3c918160c,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,Ectomycorrhizal,Highly Probable
+0176ad6d7567ee1592e6074bc334eb98,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+229dd39cf912c021ec7a319ff3b9662c,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+54d0dcfc77f9e590238539d05e8678b9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+65012f7d1836b5d19fcef6f57f29d86e,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Ectomycorrhizal,Highly Probable
+88daad5353ccf84b474c265bbeac8c5e,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+aa693528573147cd9124749deadd6c96,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+c22bb5d7c97d9fc698056a2ad66cb61f,1,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+f0f444d5a603dc381ffbd1b7fdaf46da,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+1b53ffb5affaf109e0d28e1ff9a1148e,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+66a1b826a413d62bf49340290e7a815e,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+946d6b9465324f22c7b7984a696d6fb2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+a4b1f747a45de9a4ba47f0b775318933,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+ac3a4251ba1b6b7418568bc85ee8cb9c,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+b836eb892fa1e416e366ae884f429a87,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+0a1cf2684d08a3220575fa363f78a963,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Ectomycorrhizal,Highly Probable
+13228198a4811169c6a1a93b874c0811,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+185a46133383088b2c3ec8e4e5219e6c,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+30b5094434d4700681856dd3ea42ec92,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+45f31ac8933e4bca95942104ff67ef13,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+515ba9c35233ea129bc2ae4f3f191f92,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+803370a151f12ce41b51205101ac284a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+d4900cb7ceae0b9ed10701167578b14c,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+ef306dd3b1584c5c3bdd46ac2d1eb112,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+fad69d95b915f31cb6cb43b40ff8d339,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Ectomycorrhizal,Highly Probable
+02e9cec1f97e006844467bd5845555e4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+041554fe0032c28241fc5f667c330046,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+04557737df8e507ea04aaf30627d098f,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+0682ba8856d4b31e4fc945dfcd26ade9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+08eccc67438dcd648e7066511ce22212,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+0e41ef85b59bf079efa2b321fdf9479e,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+1719fc7d80a195fae18a35fa85ff0db1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+1b7450cd24b1e6f173ef6b4a2bc27065,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+1b91d6a587ef35b52234e3a27c3add23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+242350de4bd97cd9301945c2e064418e,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+293b69ef31cb1c7d4e7681fb39863533,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+2b162939c79c002edc6a88c27a429758,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+2ce839e43c8fbe5bfc7ca133ebf1683d,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+3299bc32f09548861ce007d2ea8ab360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+3448c3983f5aeedc3d1bc6dadc856184,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+36dd19fa889f2146aadb2b6b5109f557,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+3b76106a4f25db00ce5b922be173b1df,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+3fe9b9db1d3534dec3efaa8d4acaf023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+424ba17c486dc6f2aa93eb1a19ddc3e9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+4308a4b0b65189886330880a0920d84a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+4618d4802a0487a1c18f944f329569ac,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+4c9918c1f22c0616174c915c38cbdd37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+4de78dbeafff90e908656db1f64ac7b3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+50dc01154e8088090aeb4d3a1e2fcea8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+569555374632c6848f51f37d3b2686c7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+56eec50478eac33eeb10d3d883f4401b,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+5a37712c48cb635d09edaa489e526137,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+607c9fd1301d8d2bfe5c2653ef804922,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+616a45cdf610e06946e26537845a1713,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+643b3fb74da52d285628d2db9dc68db0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+673319a0259486670b9d2d38f005d2fa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+7b4843c98b690c73c9d3761c7b29b5c6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+7d665339717e4864bfd43fdf4a3b8002,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+819703c8ac769360db3e2d6378286d0f,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+827dcee50a12b71d88fc7a28c280d7e0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+860d2fb667f13c1f74ce814dad823031,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+8f9796c970372f3a3211f5a798ad2239,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+927b936028abe4e045a33ac7d1a75296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+97425640670e1bba6eea2e2dcbec946e,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+9869e3113e67b0e2a6983adcbd1a2097,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+9b50c11768791bc1bcb2909adbc467e8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+9b72a22dc09dbe1a2ccff4cde70af031,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+9d5ab8b3f21be11715bacae46bc505b9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+a107377ffcd483f4b7339d7eb6d91fd3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+af02755212136ed130dfce7cf6416fb4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+af6d48e71818d674db5bf7399ff2a61e,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+b0b0ea23c0cd9f1eb24b0de9cbc69831,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+b6e0d6cfca6a3b7b7cede3d322b3385a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+b79a6d75d71c8a061be064e4d25a9023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+b9537c3ee7c94fc23a6e2a0937b8947b,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+bbd29496a39021ba3b354f423095d04a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+c2a64652171f8885135bb8d2d9998b75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+c85ed61e694817e5f3a5de7bfad6c277,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+cf8be710ba762eb18d9de96de465a2f1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+d34480388a6535d0ef7501630e6289ea,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+dc371416e33a1dfce0734057113cb43d,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+dddebf75ff2608e65b924e02a103d14e,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+e4cd224f71ac426df618b266924bd9ac,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+e4febf8cd407b8f350fc4dcfbee5ff7d,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+f513134e3304d14ce493109a801ecc95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+f635f7af8830d84ddb7511e4bc3923ec,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+f86a6a1437bf286c976d8f7417a5275a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+fd185917fd6932c609e72c925316cc0b,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+fe47dd8a06ffd95a734c9cb046917931,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Highly Probable
+b320cc9aa97558b491f896eaf5d71348,6,0,97,8,27,30,45,0,22,34,6,0,13,0,0,28,10,43,27,12,0,10,0,23,51,0,24,13,27,24,0,0,Endophyte,Highly Probable
+40304d734384d9d1b866aafd4ff87107,0,0,0,0,7,0,5,5,0,0,0,0,0,10,0,0,3,0,0,0,0,1,4,0,0,0,6,0,2,7,0,1,Endophyte,Highly Probable
+3101ccb42d46da04e1f467802512f563,0,0,39,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,Endophyte,Highly Probable
+95746f90e4e567da91aefe9f80777f32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,16,3,0,0,Endophyte,Highly Probable
+5364deb25b222c3bf3635118c9979313,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,Endophyte,Highly Probable
+0adbd5314b6d50ee880686dfb33975b8,4,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,Endophyte,Highly Probable
+0c014dfd07d9de8b6c8da93924fc37c2,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,Endophyte,Highly Probable
+f14efe51dfa2d8819ed5d9523f0036b9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Endophyte,Highly Probable
+2036d4f7047d84628b4e1c3ed88d9473,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,Endophyte,Highly Probable
+7bfba3f4180e6d93090578c54fa5f00f,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Endophyte,Highly Probable
+c0a86303ee6ff9fe1252f0e8a4ed86d5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,Endophyte,Highly Probable
+b1017a3389b9d6554d256f6d3f177b63,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,Endophyte,Highly Probable
+f52070ea72015d872639f6568706ff67,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,3,0,0,0,0,Endophyte,Highly Probable
+3fb31589045dbe88ba36fe2a136e7f99,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,1,0,0,0,0,0,Endophyte,Highly Probable
+8f95baee63f9f7f62796d0a6d1ec6b0d,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Endophyte,Highly Probable
+76d06d9214f45f40f422b662c48fe2ad,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Endophyte,Highly Probable
+b57b34e932b7afa9c80416c841b8b8cd,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Endophyte,Highly Probable
+b5714c720329c3afbfa3b161eb367066,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67,0,0,0,0,0,0,0,0,17,0,1,Orchid Mycorrhizal,Highly Probable
+4adbd585d920bd8fec550235ca42ccd4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Orchid Mycorrhizal,Highly Probable
+a525fa4c10724f60d695a80b87aef9f0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,16,0,0,Orchid Mycorrhizal,Highly Probable
+bc83a393faae17cbbe9fa8506c5410e6,0,0,0,0,0,0,6,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Orchid Mycorrhizal,Highly Probable
+f38b07d6c2c90ed7311b14827f599eb9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,1,Orchid Mycorrhizal,Highly Probable
+33d9ed28cf03da07536ea20fac31d926,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Orchid Mycorrhizal,Highly Probable
+c48000b0964a4ba4b262bf858d371754,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Orchid Mycorrhizal,Highly Probable
+3c436b98f86938f69dafeb9d8288d1d4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Orchid Mycorrhizal,Highly Probable
+cbd63bc729f0794489c0fc2e9ba376fd,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,2,0,0,0,0,Orchid Mycorrhizal,Highly Probable
+f1304965d9132ef2b9058042aeda9f3a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,0,0,0,Orchid Mycorrhizal,Highly Probable
+2e77173b54bf97c793e87cf1adfca7fb,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Orchid Mycorrhizal,Highly Probable
+70bdd8e9cd2a958ff77925833ece087d,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Orchid Mycorrhizal,Highly Probable
+ba1c22704d2b926796f2cfb57cd6bd18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Orchid Mycorrhizal,Highly Probable
+12b87e91d971b78a6e3e904e69519fc6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Orchid Mycorrhizal,Highly Probable
+e6a231c793840c771969731e1e7cf388,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Orchid Mycorrhizal,Highly Probable
+2cac12a607c531f40a809e0896d5d165,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Plant Pathogen,Highly Probable
+a679578e946c86a981894fa16443fb81,0,0,0,0,0,0,0,2,1,3,0,0,0,0,0,0,0,0,0,2,0,0,0,3,8,0,0,0,0,0,0,0,Wood Saprotroph,Highly Probable
+6492ce816a6b68a55a3ebb2920a5057e,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,5,2,10,0,0,1,0,2,0,0,1,0,0,0,0,0,Animal Pathogen,Probable
+81ecb92c9517df7515d6c8e886822936,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,Animal Pathogen,Probable
+70ca63411b4056879569aaab84499e32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Animal Pathogen,Probable
+8a97571a450ca02a3a803d2c62b6029c,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Animal Pathogen,Probable
+86d14999a6059f2a1b1a00b3752a8691,0,0,0,0,0,0,0,0,0,0,0,0,776,0,0,0,0,0,0,0,0,156,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Probable
+be8b8bce52332f99fe7bf884dd0b2d90,49,4,106,18,0,0,0,0,0,0,0,17,0,0,0,0,0,0,0,0,535,5,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Probable
+368d0d776d0cd68e1a1a3be640ca9760,9,0,0,0,5,0,0,0,0,0,0,0,9,0,0,0,43,0,0,0,0,0,0,5,0,0,0,0,35,0,0,0,Ectomycorrhizal,Probable
+ba04851210c2a81ff427a3a8f025fec0,25,0,7,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Probable
+72975a211fc86a5fa9f96bab80013e75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,41,0,0,0,0,0,0,1,0,0,0,0,0,0,Ectomycorrhizal,Probable
+04f1c612b5830b18cea274682dcb2bfd,0,0,0,0,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Probable
+f94e09c1bafc77f1157c5789f7b60a09,0,0,0,0,0,0,0,0,0,0,0,3,23,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Ectomycorrhizal,Probable
+d8616164356340e7be43992e739899e7,0,0,0,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Probable
+3e7ebb69f17265f644bf9e2d9d5ede60,0,0,0,0,0,0,0,0,10,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Probable
+384ee6631a5ea5cde483a1b9a6f37dd4,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Probable
+e689021df908fbde4726b7338e0b08b7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Probable
+294e48872c3886622109b4a45a24d4c4,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Probable
+7cb78d153599ddecb35a69978d114b11,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,Ectomycorrhizal,Probable
+0c46b60c33fe2cbcc290a8b9a0b7caa3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Probable
+b8f84d9af471ccb9cb7b446bc660abe0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,Ectomycorrhizal,Probable
+5f00b7b82406803ded822956fdf8663b,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,Ectomycorrhizal,Probable
+89bcd48caf6ed0e2a32cdb6d226c4af9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,Ectomycorrhizal,Probable
+0f6d5462f512cf68f8100d80f327cbea,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Probable
+21ac79b156c3c623e35e9f58a8a8da7f,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Probable
+35c4d7ac804bc3a999b84b01ae78b439,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Probable
+5ad6698b7b235f5fda5554ad4786e68f,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Probable
+7ed7cc469df4b96a67419e51c62764ee,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Probable
+8c6bac7deb6670a9959efcf361bf2220,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Probable
+9dcf16e20fc451ec6264be60cb311331,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Probable
+c1a37367a3a80d97d7816e9de918b9cc,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Probable
+cdbdeb1776a743ae2aec6fd7d4e31e18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Probable
+d0da0aece4e3c84cdcde0b833a79aeaa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Probable
+db215a43860e6e0eb0cac7d1b68e0679,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ectomycorrhizal,Probable
+c68849cf3d32b9ab4d7afae32788fceb,0,0,0,0,0,0,0,0,2,0,0,0,0,0,18,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Endophyte,Probable
+fd24e61df509e9f4629b93c4927ced42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,Endophyte,Probable
+1be652b7ace436a1c0cce20e67e4824e,0,0,7,0,0,0,6,4,6,0,17,3,0,0,0,3,0,0,0,0,0,14,11,0,0,0,0,0,10,0,0,1,Ericoid Mycorrhizal,Probable
+0a51db8eb3d0765dbd23200656f883d9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,4,0,0,0,0,0,0,0,0,Ericoid Mycorrhizal,Probable
+e69aa1c50c8199d8075db92a036c1b74,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ericoid Mycorrhizal,Probable
+1c58ee91af6f14daa0ce526676a7d4b4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,Ericoid Mycorrhizal,Probable
+52b1da524eb050a6262b9b6354c2497c,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ericoid Mycorrhizal,Probable
+8271cc86b108bc98b8f0ffb0780cdf43,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Ericoid Mycorrhizal,Probable
+c26531c59141e9eb90598f6106d8dd8a,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Fungal Parasite,Probable
+685815cdaeee710a0840cdb78cf236cd,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fungal Parasite,Probable
+fdac87565ebcdd9f4d9258d0f7fb712d,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fungal Parasite,Probable
+26ae8e4462003c72f298e5908725cbc4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fungal Parasite,Probable
+3d39cbff283e63a31fe3f9e7d9ad7cbf,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fungal Parasite,Probable
+7ca8a7fab88c2d017e5f3543079776c5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fungal Parasite,Probable
+62236c9315e5e77c4b71be92f1618bc2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,14,0,0,0,0,0,0,0,0,0,Plant Pathogen,Probable
+eca716cd4183726f91b8e89473467a66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,Plant Pathogen,Probable
+282fc2365a39c95b6299a887de10b9e0,0,0,0,0,0,0,2,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Plant Pathogen,Probable
+5b885b30777a113e9bbf619e1ef86ee0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,2,1,0,0,0,0,Plant Pathogen,Probable
+a1fa405b84378e8169216cb0a31a145f,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Plant Pathogen,Probable
+ba9d67eec025db99006f463f044e676b,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Plant Pathogen,Probable
+8c68a78472e7aa61865447082919f45a,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Plant Pathogen,Probable
+df0aa5a07d8754b5a2b4c461c2cbd735,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Plant Pathogen,Probable
+f5ff746f46ae1ea3aa432ce63763291b,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Plant Pathogen,Probable
+3855f29f78a8ac136aa425b2573d4cf9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Plant Pathogen,Probable
+6644e5903e4d02aa179e5e47b7434da8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Plant Pathogen,Probable
+7e21023f1b9829629425389fb65f7fea,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Plant Pathogen,Probable
+7e92d1b34b2b3a69bbae978e10ef5d17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Plant Pathogen,Probable
+8c02fff9fdc0a9f17321bd8e343b754c,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Plant Pathogen,Probable
+be74659759842bb1880485b22b46e954,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Plant Pathogen,Probable
+f348da79706a04b4e39b30f8c7beccfd,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Plant Pathogen,Probable
+f48a2202f51517bcaa517e74bea07705,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Plant Pathogen,Probable
+72695abe48b952404d33298af4d6264b,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,3,0,0,0,0,0,0,0,0,0,0,0,Plant Saprotroph,Probable
+838e4ae7d6a2911319c8b9dd4a13e6a8,0,38,106,68,0,0,0,12,0,4,4,751,0,40,201,0,0,0,0,12,3,0,0,0,0,1,0,0,0,0,0,768,Soil Saprotroph,Probable
+d8d0ab3141db08fe165ae2ec7af3311f,0,0,0,0,22,0,0,0,0,0,0,853,0,0,0,6,0,0,13,0,0,0,0,0,0,0,112,216,0,0,0,0,Soil Saprotroph,Probable
+381cc5305ca758a7b0a15a1084352215,0,0,0,29,1,3,61,10,30,1,8,100,0,103,4,497,21,62,0,4,0,0,4,2,0,0,0,0,50,65,0,0,Soil Saprotroph,Probable
+29cd79d0126448b2372f75d117fde7ff,0,0,483,0,0,171,0,0,0,0,179,0,0,0,3,0,0,0,0,13,0,0,0,0,0,16,67,115,0,0,0,0,Soil Saprotroph,Probable
+589f0ebc6a8c7058500b4e2e9b915f08,0,0,136,155,0,83,0,74,3,6,0,0,0,0,0,70,8,14,0,150,24,0,0,0,0,6,5,22,16,25,0,52,Soil Saprotroph,Probable
+772193cb873438d4c04eb68babc95cf2,0,0,15,0,17,0,0,0,0,0,0,0,0,0,0,4,0,0,7,0,0,0,0,0,0,0,133,246,5,0,0,410,Soil Saprotroph,Probable
+51abbc54eb2a4ce28c42e598368076b4,0,0,51,579,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,36,61,0,0,0,7,Soil Saprotroph,Probable
+4e79078e6257d6657559eb7e06f77d77,0,17,16,509,0,0,0,0,0,0,0,0,0,0,0,0,0,0,106,0,0,0,0,0,0,0,37,55,0,0,0,0,Soil Saprotroph,Probable
+4e6ba8cc99c4f43dada7ca6d160330e9,0,38,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,3,0,0,55,475,0,0,Soil Saprotroph,Probable
+7f237672e6bbe16a991a5d215ed85edd,0,0,1,0,0,107,0,0,0,0,13,0,0,0,395,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+7aa7129d33217b554306954e62b3b2dd,0,0,263,0,0,42,0,0,0,0,21,0,0,0,0,0,0,0,0,0,60,0,22,0,0,8,0,0,0,0,0,0,Soil Saprotroph,Probable
+24878f484171454aedeab73d90b77052,0,0,0,0,0,47,0,0,0,1,114,0,0,0,0,0,0,0,0,0,47,0,16,0,0,6,33,63,0,0,0,0,Soil Saprotroph,Probable
+06252f353ce81103cc3467419146c353,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,174,Soil Saprotroph,Probable
+d6a5785550672e69691bd8337e1cbafd,0,0,0,0,0,0,12,4,0,15,0,8,0,0,0,46,0,0,0,0,0,36,0,2,1,0,0,0,0,6,8,47,Soil Saprotroph,Probable
+e2fea5b4adbf8283b72c4adf92e16d6e,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,178,0,0,0,Soil Saprotroph,Probable
+fa47cd5fc7117cade2065996d221baf3,0,0,0,0,0,0,107,0,0,0,0,0,0,0,15,0,0,0,0,0,0,57,0,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+c15f65190ce8cacd4f9de4211e513c1b,27,0,0,0,0,7,0,16,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,3,1,105,Soil Saprotroph,Probable
+7bc10385f5b48138b51cfc0f023abdc0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,158,0,Soil Saprotroph,Probable
+461970aea772fe2b549002750441ae8c,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,131,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+169eb9d81e6f0c70e7571f481c3e6335,0,9,102,2,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+25bdcac2d2ad4bbba937f5522050e3b8,0,0,0,0,0,0,0,0,0,0,15,0,0,5,5,82,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+9e2b70f8017f7431b160ec368f7e7052,0,0,0,6,0,0,0,52,0,0,0,0,0,0,0,0,0,0,0,0,0,3,43,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+deca6280d6d32226e12588c5f9ead349,0,0,104,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+8e7e681fe0ba9b847c67bb028154fdb1,0,0,0,0,0,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+86787344b07213cda8df70c028021d35,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,4,Soil Saprotroph,Probable
+415aee74c86a8b148a37fef3812226b8,0,0,0,0,0,0,0,0,0,0,47,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+9b722643ca99f753a6920adfc082bcda,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,Soil Saprotroph,Probable
+c2202c2f7bf65e5f9c2cff47b9740bf8,0,0,0,0,0,0,0,0,19,0,9,0,0,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+50649db4b42e82db56bb2798bd5304e5,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,41,Soil Saprotroph,Probable
+97011d3ab89173c20182cd02b60c9a10,0,0,0,0,0,0,0,0,0,0,29,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+c351694ca04e0bcce6489eb4d6a031f8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,34,0,0,0,0,0,4,0,Soil Saprotroph,Probable
+eb31b15f07247e19fc9efc5c92d56401,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,0,0,0,0,0,0,Soil Saprotroph,Probable
+f327459267d0f55a67c698e40dde763f,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+fc1181bc80b994d3f6bb04fc36ddabf1,0,0,0,0,0,0,16,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+9406a244afea2da2743cb45b3fa07dc1,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,8,0,0,0,0,Soil Saprotroph,Probable
+89dc3957dad5170749973a4db5ab37c7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,29,Soil Saprotroph,Probable
+304446e77669d8501dbe8ce8a59c08cd,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+63424b135f02d8c30b3951bf2ad25471,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+d57fbdb08f6d282306a32aca8c7bd956,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+033b0c83d3aa2b53daecf42a7c7bf13a,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,13,0,0,Soil Saprotroph,Probable
+65994c30d64b1a8b5f6d4664c4f408ee,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,7,4,0,0,0,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+6d14fd25753afb323f665acbc301185c,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,3,1,0,0,0,0,0,0,0,0,0,0,0,2,2,0,Soil Saprotroph,Probable
+17bff49e094e782c99cb170b37031d53,0,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+7b4c9b2d93a31542307223bcd3f7b575,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+9f2039367c12122fdd539278c32bff03,0,0,0,0,0,0,0,0,0,9,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+abd1de103f404f58193c7aea19e845c6,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,Soil Saprotroph,Probable
+784113e08fb12ccababcdecf590b54ce,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,Soil Saprotroph,Probable
+98e7b24f88c74aadb0d7f4624fc82a2b,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+eb27eb894fc2fbf3aee42902cabf052d,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+3b8bf6e4146e475fa9b8848159746501,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,Soil Saprotroph,Probable
+437d331fbf0735ddc5b4aa80b3c6547c,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+1f0db3764bc38bfa4de5cc0bb1eac3fe,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+f7b9c6647da2ea8cba4efd74e2be4046,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,3,0,3,Soil Saprotroph,Probable
+3df84c6a9af06f9f37c3e4a6dbe75892,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,Soil Saprotroph,Probable
+4280c10c4f6defa089f7a945d7d63d84,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,Soil Saprotroph,Probable
+5762026e9c0a78e9f30cf392b8779f11,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+74af1cbefe548a9b714c0703f9a310b1,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+f8990ca1b534407f4bb0bf80bb605ea0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+591d6028a83b641c8e1d7eb39c5450fa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,Soil Saprotroph,Probable
+fa4affaa2d0a40bbd4337421e9447c62,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+18706fc773e4146dc0a7c8960735ac4f,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+f85f5bd6e9b45414157c9f1ac195e4de,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+1372436be51e33e445d16c729d074aef,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+5ba3935faeefa2861f30904421472ab6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+a2700b9b2512ca8bbf2ad2ab9afa3c97,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+e05aaa9a22a6591125956cb0011c3386,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Soil Saprotroph,Probable
+4335288f580f8cd1e21d764db5ae76d0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,900,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+e7ff3a4aef35ce456ca8985cdc05fc66,164,15,0,31,19,6,14,0,0,36,75,12,110,0,0,100,11,30,0,45,0,0,0,17,102,11,18,21,28,27,0,8,Undefined Saprotroph,Probable
+f1fd2c5e79a1d2ef47247b8bbc41a655,0,0,0,0,0,0,9,0,0,2,0,398,0,0,0,277,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+e66fa7ce360bfe082c279e6fdb38036a,3,0,7,6,21,6,16,6,15,2,6,0,97,48,9,33,17,24,21,11,5,29,20,15,24,0,3,14,18,5,0,4,Undefined Saprotroph,Probable
+f5bf3531a801ee33db67c430896def6a,0,0,0,0,0,0,0,0,122,0,0,0,0,0,0,0,0,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+dede2b46feffcf5f9bd31d76b521206f,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,85,35,0,0,0,0,Undefined Saprotroph,Probable
+c4cade94152b6d826fbbb452531689ec,9,9,3,0,7,0,1,0,0,4,0,0,2,5,0,13,0,1,0,0,0,0,0,4,35,1,9,5,0,6,4,0,Undefined Saprotroph,Probable
+756a40b8e3edd0ab9d63f64ecffd5efe,18,0,0,0,0,0,0,0,0,0,0,0,63,0,0,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+7cd7ec53fe5aeeaf380d10d57486aa94,0,0,0,72,0,0,0,0,0,0,0,0,0,0,0,30,0,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0,Undefined Saprotroph,Probable
+59010aa2fc099f979edbc6117ae373aa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,75,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+d9b45ab7edcceac5d3d403fd2e58a157,18,0,20,1,0,0,1,17,8,0,4,0,0,0,0,8,11,0,0,0,0,0,0,4,2,0,0,0,1,5,0,3,Undefined Saprotroph,Probable
+2129f7cb2f3cb2d374cd4093cf9ceafd,0,0,0,0,0,0,0,0,0,0,0,0,0,0,39,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60,0,0,Undefined Saprotroph,Probable
+864951b7c80aae878a115d22ae39b654,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,11,2,0,75,0,1,Undefined Saprotroph,Probable
+de3222bdcb8d8f58752a8b248235169f,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,80,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,Undefined Saprotroph,Probable
+2460c829e62e6364eaf69b5d36649de8,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,17,0,1,5,5,3,15,0,0,0,0,0,9,7,0,0,Undefined Saprotroph,Probable
+f9a71037aac38cbf82e6f47786ccc66c,40,0,5,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+5221074640157dd89dedc015ff538edc,0,0,0,0,0,3,0,19,0,0,17,0,0,0,0,15,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0,0,Undefined Saprotroph,Probable
+cbfa06cbcb337ddc67b4392a68ebd7a5,0,0,0,6,0,4,0,9,0,0,6,2,5,0,0,0,23,0,2,0,0,0,0,0,0,0,0,6,0,0,0,0,Undefined Saprotroph,Probable
+15301defd1a1685c048d294f6724720b,0,7,22,0,0,6,0,5,0,0,0,0,0,0,0,0,0,1,6,0,0,5,5,0,4,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+238405847ee375f91b22f731732acefd,12,0,0,0,3,0,0,0,10,0,0,0,0,0,0,1,0,7,0,2,0,0,0,1,11,0,0,0,4,1,0,0,Undefined Saprotroph,Probable
+df644531c3110748314294504e4aadbf,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,Undefined Saprotroph,Probable
+bf06490a5cdea7de0c1f03d94f21415f,0,0,0,26,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+86b107bb8108b25e13af925827de1fcc,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,Undefined Saprotroph,Probable
+deb1837bde369c5f16ab8b1a3ac61307,0,0,0,0,0,0,0,0,0,0,9,0,16,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,Undefined Saprotroph,Probable
+691804ea4aa68fee2628475d7728b22e,0,0,0,0,0,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+2110fc9d01316633ec2cd698a5bc7fd4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+27d08b2da7225f9bca61d7aebe99ae03,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28,0,Undefined Saprotroph,Probable
+e21fcf87fc2f2ab5d4dd8027df7d535a,0,0,2,0,0,0,0,0,0,0,2,0,0,0,0,0,23,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+acfe96bbe4485544c9d5fb2d310af14f,0,0,0,0,10,1,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,3,0,Undefined Saprotroph,Probable
+c7c3fb7dba3336d2d490e15eef880b31,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+95bd627ab7dc448bca3fb8067e9311da,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+f85f744b6b65cd31768ea83b7b36d4d6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,18,0,Undefined Saprotroph,Probable
+43c66184cc7454250afe98394584790a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,Undefined Saprotroph,Probable
+add801ef07f14b3103e68cd0c2fcf80f,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+de85894031360c65b750f0cf4458f8bf,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+fc986430a8e0c9c1151b770dafd9366e,0,0,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+1561733cb2967284add5ec1f14b3d691,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+fcb2ac427e8abfd0525fcf13cbe8a4e9,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,2,0,0,0,0,0,Undefined Saprotroph,Probable
+76d168cf3aa0cbb3813055bd7a756c4a,0,0,3,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0,0,2,0,0,0,0,0,2,3,0,0,0,0,3,Undefined Saprotroph,Probable
+7759a9f7d8c761827f5e77b0803c0c37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+7c6c1f4c64bc69ed89a6a92c44728e0b,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,3,Undefined Saprotroph,Probable
+aac77f1592f9ccc451551f7b05a9656c,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+5a642727e443bc024e1b74e15e02bf93,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+5ca2a4553d51181d12e09e2876291f4f,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+63e62e8907dda676c3ff5394870ec1c3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+64d51f143fd130640ac3a66f7f9f7554,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,Undefined Saprotroph,Probable
+89f13aaa28bd5592ef9a6a253b9790aa,0,0,0,0,0,0,2,0,0,0,0,0,2,0,0,0,0,7,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Undefined Saprotroph,Probable
+a0570c40e555fb4f590fd31f2c0c1982,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,5,3,0,2,0,0,Undefined Saprotroph,Probable
+a35998373d9d6f334c1e691cf3e6b9c4,0,0,0,9,0,0,0,0,0,1,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+1220aca21d91930a5a1a7cf7b7d9b890,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+672982857829e53d58cd46d03fef8c2a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+6ba2eaca2c2cc6364070f425d664727d,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+c2762b76fe0e0054fd60e590e33fda40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+838c6451159c766f552248cd7d995720,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+c987a82194b4d857d9ac70a453921c13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,7,0,0,Undefined Saprotroph,Probable
+37790023bface587bc5d20229dee5035,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+7ccfda56fd40bb25c5f7b238a7f74afc,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,6,0,0,2,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+359876a1197a64f3ba6208826a450457,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+69b38b131eb943ca148d7c1ddd2e2fb9,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0,0,2,0,0,0,0,0,Undefined Saprotroph,Probable
+9f3ce4d049c32b6c9baa33774552cfea,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,Undefined Saprotroph,Probable
+b4b30a3416756ff2cced2c617b2a9663,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+be0289f5eccd1ca09209d6a95be0d4be,6,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+d49b86a19de036eaef7e2cc0c953da59,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+0d47c91520f3d5865c17b3790c00dee8,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+0dea867551f1fe82a854ce37d1210bbf,0,0,0,4,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Undefined Saprotroph,Probable
+4f006d93b957198e6742a3a843035364,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+c929fdeded87200c232388745aa21fbc,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,6,0,0,Undefined Saprotroph,Probable
+3e5941d68b671964d0f3fd46b3e766c1,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,Undefined Saprotroph,Probable
+e886245a18a1c37d3a940a2edfad3fad,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+ff37f9fb8a5725ddc8f846d8846ede83,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,Undefined Saprotroph,Probable
+6a96b0d8ea4bccf0a43ff56cfa2225e5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+9ea23ab55d4269277e4d03ee2307ad9c,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+b9eac587c413ef55a65ccddcdbf4db72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Undefined Saprotroph,Probable
+01f618fc48c93424dbc0509d2ae8dfa5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,Undefined Saprotroph,Probable
+3a7dbe6c612f23ce48684f9d6954c656,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+4df43432ecc2e4f43b7f57b995ec7dd8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+98e22a2285cf0b584a70a6b16344d663,0,0,0,0,0,0,2,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+d0c2dfb00229376b209b02ffbfb54910,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,Undefined Saprotroph,Probable
+0c64b7d59a81b8957e7633989dd35bee,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Undefined Saprotroph,Probable
+1a554bd5273f5ff56603fcded1e17da5,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+40758c11ebe0ad689803cd6125ccdf16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+99c5f72fa659724da795e89ac1156681,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+9a4aa696995ff554f702c3b209283509,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,Undefined Saprotroph,Probable
+c35eb5e7e5b0840be87911121ebf8626,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+e2a3bb0017688ae54c3ab35ab75429c5,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+f1493f9c449f7c9a0bc259edb15864ca,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,Undefined Saprotroph,Probable
+5381e5d970154613e32ecd3d155c6c78,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+784ee4adfc10e43769e8dc33a5968655,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Undefined Saprotroph,Probable
+9886c6ac9c764469bc090cc11148fcfd,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,Undefined Saprotroph,Probable
+9c73c5a25ae6a4dd6d843cfa376cedcc,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,Undefined Saprotroph,Probable
+ba47595ab939443b3703124827e9e01b,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+eaa24c8a34c71012817adde303bf0b41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+3e7660daaca440e3ab29edda173a816b,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+4731b3ce31f04dded18cc5a0ab34e430,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+48ca0f3979122984edcccabcbbb25a79,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+6253080e1f5329dfb71d4eb98427333b,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Undefined Saprotroph,Probable
+6faef7036152408297651bc1cb6ab629,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+711c817d572d85af1b162a4445f061f3,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+818fb012b7c1c252820be4aff73894a8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Undefined Saprotroph,Probable
+8b42bfff32706e99b738896a9eec396b,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+9870b73ebe598943687e1142760f03cb,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Undefined Saprotroph,Probable
+990e1d315d01e10415ab0dcc022e249a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Undefined Saprotroph,Probable
+c0e915d586f5a3d4be6ae75473c0eaae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+c58f2dddaf1e1a258a3a2375dd3eea18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+fcc05e548cf42129523569c95c57e36b,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Undefined Saprotroph,Probable
+fd7354d3f1871e1ddc610eb62ca9736e,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+0021b473e1418f2fa416bca0287b11f5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+038bebf8f8c4c5852b353443b116ee03,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+079439d68c350f10c9ac5f045aa2575a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+093438de1040dc57a0be1a2900927f28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+0cb60b4443c49e330a962080b0ba3bb3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+0d5cf1026a7fcad6e56a158ac493ddc8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+104774ba2ade722135079be79265ae24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+25f8b041674e77935f66bf48377afccf,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+28bb0f051e7331fdd6c1fad0cc11991b,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+2c5fb89e7f53146e6d2ed985bb831557,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+326cbef90a7901b2637cc96fe3ba0324,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+36b465e5bc48dccc1564f8b622531bd6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+41426aa0021fd9fadf3d7e9518314dc3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+5292f699b63ace63b76f0d30c07e832a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+55e83a4b076682835d2b066de834bc3a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+61551f4ac94c5eb6efcbb71bf682755f,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+6b66bc9b273cc2f919b60f3eebe8a238,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+7a33eb051c3cb9d96a24e3f357d1aa5d,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+8428db5168b93bdddf5b01f43d95d49f,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+8ea8efb02c61f4513c4eed0e3897fc06,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+997474ce4c2312cf1afbd544e69d3bf4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+a3d1897ade8771d66a40b0da9a6b9f49,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+a54b4ebb4b9577c812302ca3afbfcd34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+afb2e83623bca99cf8bcf773dddf28e1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+b3ad4eded9e440dc215daece4bc48202,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+cfbb2011bf9611975d6893fd2672b3ed,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+daab4c7694cb75df714cec3f749ff099,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+e76877322632ab0d19139e705c083a0d,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+ec2eb75fb8a78d11ebf23d6ff8a8434b,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+edb1044da488ed2866843f3e64b38c1a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+f45178a43850fc3fe92758283da5a1ee,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+fbceb6fdbf176694c53d46f5a9dde153,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+fc1b60fd3eaf56fbf601d56578e6f23e,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+fc4129a79e8c42f2c6738591b0cd0877,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Undefined Saprotroph,Probable
+faca249d774293f2d3f638a67c2886d2,0,0,0,0,0,0,28,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wood Saprotroph,Probable
+1bda9a74d1ab3a086c27e14e6b404c33,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wood Saprotroph,Probable
+56d57e6931888cd8973b9a3ec85315d7,0,0,0,0,0,0,5,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wood Saprotroph,Probable
+9afb5b8de2efabceda636c3a1e60f86d,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wood Saprotroph,Probable
+ce7d228483d54bd76a25ab94c911dde2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wood Saprotroph,Probable
+f940fdadcd65741bc47acaeab820f470,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wood Saprotroph,Probable
