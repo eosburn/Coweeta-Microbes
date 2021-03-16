@@ -19,78 +19,88 @@ library(RANN)
 #library(MASS)
 
 setwd('C:/Users/ernie/OneDrive/Desktop/Coweeta_drought')
-drought_asvs <- "C:/Users/ernie/OneDrive/Desktop/Coweeta_drought/ITS-table-with-taxonomy.biom"
+drought_asvs <- "C:/Users/ernie/OneDrive/Desktop/Coweeta_drought/16S-table-with-taxonomy.biom"
 s1 <- read_biom(drought_asvs)
 drought_meta <- "C:/Users/ernie/OneDrive/Desktop/Coweeta_drought/16S_metadata_CWT.txt"
 drought_meta2 <- import_qiime_sample_data(drought_meta)
 drought_otus2 <- import_biom(s1)
 drought_otus2 <- merge_phyloseq(drought_otus2, drought_meta2)
-drought_otus2 <- subset_samples(drought_otus2, id != "154")
+drought_otus2 <- subset_samples(drought_otus2, id != "94")
 drought_16s.2 <- rarefy_even_depth(drought_otus2, rngseed=TRUE)
+
 
 #Change Phyla names
 drought_16s.3 <- psmelt(drought_16s.2)
 
-drought_16s.3$Class1=drought_16s.3$Rank3
+drought_16s.3$Phyla1=drought_16s.3$Rank2
 
-unique(drought_16s.3$Class1)
+drought_16s.3[drought_16s.3=="p__Proteobacteria"] <- "Proteobacteria"
+drought_16s.3[drought_16s.3=="p__Acidobacteria"] <-"Acidobacteria"
+drought_16s.3[drought_16s.3=="p__Actinobacteria"] <-"Actinobacteria"
+drought_16s.3[drought_16s.3=="p__Bacteroidetes"] <-"Bacteroidetes"
+drought_16s.3[drought_16s.3=="NA"] <-"Other"
+drought_16s.3[drought_16s.3=="p__GAL15"] <-"Other"
+drought_16s.3[drought_16s.3=="p__Chlamydiae"] <-"Other"
+drought_16s.3[drought_16s.3=="p__Chlorobi"] <-"Other"
+drought_16s.3[drought_16s.3=="p__Chloroflexi"] <-"Chloroflexi"
+drought_16s.3[drought_16s.3=="p__Crenarchaeota"] <-"Other"
+drought_16s.3[drought_16s.3=="p__Cyanobacteria"] <-"Other"
+drought_16s.3[drought_16s.3=="p__Elusimicrobia"] <-"Other"
+drought_16s.3[drought_16s.3=="p__Euryarchaeota"] <-"Other"
+drought_16s.3[drought_16s.3=="p__AD3"] <-"Other"
+drought_16s.3[drought_16s.3=="p__Firmicutes"] <-"Firmicutes"
+drought_16s.3[drought_16s.3=="p__Gemmatimonadetes"] <-"Other"
+drought_16s.3[drought_16s.3=="p__FCPU426"] <-"Other"
+drought_16s.3[drought_16s.3=="p__MVP-21"] <-"Other"
+drought_16s.3[drought_16s.3=="p__Nitrospirae"] <-"Nitrospirae"
+drought_16s.3[drought_16s.3=="p__OD1"] <-"Other"
+drought_16s.3[drought_16s.3=="p__Planctomycetes"] <-"Planctomycetes"
+drought_16s.3[drought_16s.3=="p__Proteobacteria"] <-"Proteobacteria"
+drought_16s.3[drought_16s.3=="p__Tenericutes"] <-"Other"
+drought_16s.3[drought_16s.3=="p__[Parvarchaeota]"] <-"Other"
+drought_16s.3[drought_16s.3=="p__Spirochaetes"] <-"Other"
+drought_16s.3[drought_16s.3=="p__Verrucomicrobia"] <-"Verrucomicrobia"
+drought_16s.3[drought_16s.3=="p__"] <-"Other"
+drought_16s.3[drought_16s.3=="p__OP3"] <-"Other"
+drought_16s.3[drought_16s.3=="p__Fibrobacteres"] <-"Other"
+drought_16s.3[drought_16s.3=="p__WS3"] <-"Other"
+drought_16s.3[drought_16s.3=="p__WPS-2"] <-"Other"
+drought_16s.3[drought_16s.3=="p__TM6"] <-"Other"
+drought_16s.3[drought_16s.3=="p__Armatimonadetes"] <-"Other"
+drought_16s.3[drought_16s.3=="p__TM7"] <-"Other"
+drought_16s.3[drought_16s.3=="p__GN04"] <-"Other"
+drought_16s.3[drought_16s.3=="p__OP11"] <-"Other"
+drought_16s.3[drought_16s.3=="p__BHI80-139"] <-"Other"
+drought_16s.3[drought_16s.3=="p__GN02"] <-"Other"
+drought_16s.3[drought_16s.3=="p__NKB19"] <-"Other"
+drought_16s.3[drought_16s.3=="p__SBR1093"] <-"Other"
+drought_16s.3[drought_16s.3=="p__WS2"] <-"Other"
+drought_16s.3[drought_16s.3=="p__OP9"] <-"Other"
+drought_16s.3[drought_16s.3=="p__BRC1"] <-"Other"
+drought_16s.3[drought_16s.3=="p__GOUTA4"] <-"Other"
+drought_16s.3[drought_16s.3=="p__ZB3"] <-"Other"
+drought_16s.3$Phyla1[is.na(drought_16s.3$Phyla1)] <- "Other"
 
-drought_16s.3[drought_16s.3=="c__Agaricomycetes" ] <- "Agaricomycetes"
-drought_16s.3[drought_16s.3=="c__Leotiomycetes"] <-"Leotiomycetes"
-drought_16s.3[drought_16s.3=="c__Sordariomycetes"] <-"Sordariomycetes"
-drought_16s.3[drought_16s.3=="c__Mortierellomycetes" ] <-"Mortierellomycetes"
-drought_16s.3[drought_16s.3=="c__Geminibasidiomycetes" ] <-"Geminibasidiomycetes"
-drought_16s.3[drought_16s.3=="c__Tremellomycetes"   ] <-"Tremellomycetes"
-drought_16s.3[drought_16s.3=="c__Eurotiomycetes" ] <-"Eurotiomycetes"
-drought_16s.3[drought_16s.3=="c__Mucoromycotina_cls_Incertae_sedis"] <-"Mucoromycotina"
-drought_16s.3[drought_16s.3=="c__Umbelopsidomycetes"] <-"Umbelopsidomycetes"
-drought_16s.3[drought_16s.3=="c__Pezizomycetes"  ] <-"Other"
-drought_16s.3[drought_16s.3=="c__Dothideomycetes" ] <-"Other"
-drought_16s.3[drought_16s.3=="c__unidentified"  ] <-"Other"
-drought_16s.3[drought_16s.3=="c__Xylonomycetes" ] <-"Other"
-drought_16s.3[drought_16s.3=="c__Microbotryomycetes"] <-"Other"
-drought_16s.3[drought_16s.3=="c__Orbiliomycetes" ] <-"Other"
-drought_16s.3[drought_16s.3=="c__Geoglossomycetes" ] <-"Other"
-drought_16s.3[drought_16s.3=="c__Saccharomycetes"] <-"Other"
-drought_16s.3[drought_16s.3=="c__Laboulbeniomycetes" ] <-"Other"
-drought_16s.3[drought_16s.3=="c__Lecanoromycetes" ] <-"Other"
-drought_16s.3[drought_16s.3=="c__Zoopagomycetes"  ] <-"Other"
-drought_16s.3[drought_16s.3=="c__Calcarisporiellomycetes" ] <-"Other"
-drought_16s.3[drought_16s.3=="c__Glomeromycetes" ] <-"Other"
-drought_16s.3[drought_16s.3=="c__GS35"] <-"Other"
-drought_16s.3[drought_16s.3=="c__Kickxellomycetes"] <-"Other"
-drought_16s.3[drought_16s.3=="c__Tritirachiomycetes" ] <-"Other"
-drought_16s.3[drought_16s.3=="c__GS19"] <-"Other"
-drought_16s.3[drought_16s.3=="c__Basidiobolomycetes" ] <-"Other"
-drought_16s.3[drought_16s.3=="c__Endogonomycetes"] <-"Other"
-drought_16s.3[drought_16s.3=="c__Mucoromycetes" ] <-"Other"
-drought_16s.3[drought_16s.3=="c__Chytridiomycetes"] <-"Other"
-drought_16s.3[drought_16s.3=="c__GS18"] <-"Other"
-drought_16s.3[drought_16s.3=="c__Taphrinomycetes" ] <-"Other"
-drought_16s.3[drought_16s.3=="c__Rhizophydiomycetes"  ] <-"Other"
-drought_16s.3[drought_16s.3=="c__Schizosaccharomycetes" ] <-"Other"
-drought_16s.3$Class1[is.na(drought_16s.3$Class1)] <- "Other"
-
-unique(drought_16s.3$Class1)
+unique(drought_16s.3$Phyla1)
 
 #Assign colors for Phyla
-drought_16s.3$ClassColor=drought_16s.3$Class1
+drought_16s.3$PhylaColor=drought_16s.3$Phyla1
 
 library("RColorBrewer")
 
 brewer.pal(9, "Set1")
 
-drought_16s.3$ClassColor[drought_16s.3$ClassColor=="Other"] <-"black"
-drought_16s.3$ClassColor[drought_16s.3$ClassColor=="Agaricomycetes"] <-"#E41A1C"
-drought_16s.3$ClassColor[drought_16s.3$ClassColor=="Geminibasidiomycetes"] <-"#4DAF4A"
-drought_16s.3$ClassColor[drought_16s.3$ClassColor=="Leotiomycetes"] <-"#984EA3"
-drought_16s.3$ClassColor[drought_16s.3$ClassColor=="Sordariomycetes" ] <-"#A65628"
-drought_16s.3$ClassColor[drought_16s.3$ClassColor=="Tremellomycetes"] <-"#F781BF"
-drought_16s.3$ClassColor[drought_16s.3$ClassColor=="Mortierellomycetes"  ] <-"#FF7F00" 
-drought_16s.3$ClassColor[drought_16s.3$ClassColor=="Eurotiomycetes" ] <-"#377EB8"
-drought_16s.3$ClassColor[drought_16s.3$ClassColor=="Mucoromycotina"] <-"#FFFF33"
-drought_16s.3$ClassColor[drought_16s.3$ClassColor=="Umbelopsidomycetes"  ] <-"#999999"
-unique(drought_16s.3$ClassColor)
+drought_16s.3$PhylaColor[drought_16s.3$PhylaColor=="Other"] <-"black"
+drought_16s.3$PhylaColor[drought_16s.3$PhylaColor=="Firmicutes"] <-"#FF7F00"
+drought_16s.3$PhylaColor[drought_16s.3$PhylaColor=="Acidobacteria"] <-"#999999"
+drought_16s.3$PhylaColor[drought_16s.3$PhylaColor=="Actinobacteria"] <-"#F781BF"
+drought_16s.3$PhylaColor[drought_16s.3$PhylaColor=="Bacteroidetes"] <-"#A65628"
+drought_16s.3$PhylaColor[drought_16s.3$PhylaColor=="Chloroflexi"] <-"#FFFF33"
+drought_16s.3$PhylaColor[drought_16s.3$PhylaColor=="Planctomycetes"] <-"#4DAF4A"
+drought_16s.3$PhylaColor[drought_16s.3$PhylaColor=="Proteobacteria"] <-"#377EB8"
+drought_16s.3$PhylaColor[drought_16s.3$PhylaColor=="Verrucomicrobia"] <-"#E41A1C"
+drought_16s.3$PhylaColor[drought_16s.3$PhylaColor=="Nitrospirae"] <-"#984EA3"
+unique(drought_16s.3$PhylaColor)
 
 
 con_ref <- subset_samples(drought_16s.2, Day != "1")
@@ -134,25 +144,37 @@ cor1.1 <- cor1[rownames(cor1) %in% rownames(p1.1),]
 
 g1<-simplify(graph.edgelist(as.matrix(cor1.1[,c(1,2)]),directed=FALSE))
 
+cor1.2 <- cor1.1[abs(cor1.1$cor)>  .8,]
+
+g1.11<-simplify(graph.edgelist(as.matrix(cor1.2[,c(1,2)]),directed=FALSE))
+
+g1.2 = which(degree(g1.11)==0)
+g1.1 <- delete.vertices(g1.11, g1.2)
+
 #Add Phyla information to networks
-V(g1)$Class = as.character(drought_16s.3$Class1[match(V(g1)$name, drought_16s.3$OTU)])#Adds taxanomic information to the different verticies
-V(g1)$Class[is.na(V(g1)$Phylum)] <- "Other"
-V(g1)$classcolor = as.character(drought_16s.3$ClassColor[match(V(g1)$name, drought_16s.3$OTU)])
-V(g1)$classcolor[is.na(V(g1)$classcolor)] <- "black"
+V(g1.1)$Phylum = as.character(drought_16s.3$Phyla1[match(V(g1.1)$name, drought_16s.3$OTU)])#Adds taxanomic information to the different verticies
+V(g1.1)$Phylum[is.na(V(g1.1)$Phylum)] <- "Other"
+V(g1.1)$phylacolor = as.character(drought_16s.3$PhylaColor[match(V(g1.1)$name, drought_16s.3$OTU)])
+V(g1.1)$phylacolor[is.na(V(g1.1)$phylacolor)] <- "black"
 
-length(E(g1))
-length(V(g1))
+length(E(g1.1))
+length(V(g1.1))
 
-jpeg(filename="nfung1.jpeg",res=4000,units = "in", height=5, width=5) 
+
+jpeg(filename="nbac1.jpeg",res=4000,units = "in", height=5, width=5) 
 
 
 par(mar = rep(0, 4), xaxs='i', yaxs='i')
-plot.igraph(g1, vertex.label=NA, vertex.size=5, edge.color=ifelse(cor1.1$cor > 0, "blue","red"),
-            edge.width=c(2), vertex.frame.color=NA,vertex.color=V(g1)$classcolor)
-
+plot.igraph(g1.1, vertex.label=NA, vertex.size=5, edge.color=ifelse(cor1.2$cor > 0, "blue","red"),
+            edge.width=c(2), vertex.frame.color=NA,vertex.color=V(g1.1)$phylacolor)
 
 dev.off()
 
+jpeg(filename="bacleg.jpeg",res=3000,units = "in", height=5, width=3) 
+par(mar = rep(0, 4), xaxs='i', yaxs='i')
+plot(NULL ,xaxt='n',yaxt='n',bty='n',ylab='',xlab='', xlim=0:1, ylim=0:1)
+legend('center',legend=unique(V(g1.1)$Phylum),cex=1.5,pt.cex=2.5,pch=21,pt.bg=unique(V(g1.1)$phylacolor))
+dev.off()
 
 drought_ref <- subset_samples(drought_16s.2, Day != "1")
 drought_ref <- subset_samples(drought_ref, Day != "42")
@@ -182,7 +204,6 @@ library(corrplot)
 res2 <- cor.mtest(a2, conf.level = .99)
 
 res2 <- as.matrix(res2[["p"]])
-
 res2.1 <- as.matrix(p.adjust(res2, method="fdr"))
 
 library(reshape2)
@@ -196,21 +217,28 @@ cor2.1 <- cor2[rownames(cor2) %in% rownames(p2.1),]
 
 g2<-simplify(graph.edgelist(as.matrix(cor2.1[,c(1,2)]),directed=FALSE))
 
+cor2.2 <- cor2.1[abs(cor2.1$cor)>  .8,]
+
+g2.11<-simplify(graph.edgelist(as.matrix(cor2.2[,c(1,2)]),directed=FALSE))
+
+g2.2 = which(degree(g2.11)==0)
+g2.1 <- delete.vertices(g2.11, g2.2)
+
 #Add Phyla information to networks
-V(g2)$Class= as.character(drought_16s.3$Class1[match(V(g2)$name, drought_16s.3$OTU)])#Adds taxanomic information to the different verticies
-V(g2)$Class[is.na(V(g2)$Class)] <- "Other"
-V(g2)$classcolor = as.character(drought_16s.3$ClassColor[match(V(g2)$name, drought_16s.3$OTU)])
-V(g2)$classcolor[is.na(V(g2)$classcolor)] <- "black"
+V(g2.1)$Phylum = as.character(drought_16s.3$Phyla1[match(V(g2.1)$name, drought_16s.3$OTU)])#Adds taxanomic information to the different verticies
+V(g2.1)$Phylum[is.na(V(g2.1)$Phylum)] <- "Other"
+V(g2.1)$phylacolor = as.character(drought_16s.3$PhylaColor[match(V(g2.1)$name, drought_16s.3$OTU)])
+V(g2.1)$phylacolor[is.na(V(g2.1)$phylacolor)] <- "black"
 
-length(E(g2))
-length(V(g2))
+length(E(g2.1))
+length(V(g2.1))
 
 
-jpeg(filename="nfung2.jpeg", bg="transparent", res=3000, units = "in", height=5, width=5) 
+jpeg(filename="nbac2.jpeg", bg="transparent", res=4000, units = "in", height=5, width=5) 
 
 par(mar = rep(0, 4), xaxs='i', yaxs='i')
-plot.igraph(g2, vertex.label=NA, vertex.size=5,edge.color=ifelse(cor2.1$cor > 0, "blue","red"),
-            edge.width=c(2), vertex.frame.color=NA,vertex.color=V(g2)$classcolor)
+plot.igraph(g2.1, vertex.label=NA, vertex.size=5,edge.color=ifelse(cor2.2$cor > 0, "blue","red"),
+                  edge.width=c(2), vertex.frame.color=NA,vertex.color=V(g2.1)$phylacolor)
 
 dev.off()
 
@@ -258,21 +286,29 @@ cor3.1 <- cor3[rownames(cor3) %in% rownames(p3.1),]
 
 g3<-simplify(graph.edgelist(as.matrix(cor3.1[,c(1,2)]),directed=FALSE))
 
+cor3.2 <- cor3.1[abs(cor3.1$cor)>  .8,]
+
+g3.11<-simplify(graph.edgelist(as.matrix(cor3.2[,c(1,2)]),directed=FALSE))
+
+g3.2 = which(degree(g3.11)==0)
+g3.1 <- delete.vertices(g3.11, g3.2)
+
+
 #Add Phyla information to networks
-V(g3)$Class = as.character(drought_16s.3$Class1[match(V(g3)$name, drought_16s.3$OTU)])#Adds taxanomic information to the different verticies
-V(g3)$Class[is.na(V(g3)$Class)] <- "Other"
-V(g3)$classcolor = as.character(drought_16s.3$ClassColor[match(V(g3)$name, drought_16s.3$OTU)])
-V(g3)$classcolor[is.na(V(g3)$classcolor)] <- "black"
+V(g3.1)$Phylum = as.character(drought_16s.3$Phyla1[match(V(g3.1)$name, drought_16s.3$OTU)])#Adds taxanomic information to the different verticies
+V(g3.1)$Phylum[is.na(V(g3.1)$Phylum)] <- "Other"
+V(g3.1)$phylacolor = as.character(drought_16s.3$PhylaColor[match(V(g3.1)$name, drought_16s.3$OTU)])
+V(g3.1)$phylacolor[is.na(V(g3.1)$phylacolor)] <- "black"
 
-length(E(g3))
-length(V(g3))
+length(E(g3.1))
+length(V(g3.1))
 
 
-jpeg(filename="nfung3.jpeg", bg="transparent", res=3000, units = "in", height=5, width=5) 
+jpeg(filename="nbac3.jpeg", bg="transparent", res=4000, units = "in", height=5, width=5) 
 
 par(mar = rep(0, 4), xaxs='i', yaxs='i')
-plot.igraph(g3, vertex.label=NA,vertex.size=5,edge.color=ifelse(cor3.1$cor > 0, "blue","red"),
-            edge.width=c(2),  vertex.frame.color=NA,vertex.color=V(g3)$classcolor)
+plot.igraph(g3.1, vertex.label=NA, vertex.size=5,edge.color=ifelse(cor3.2$cor > 0, "blue","red"),
+            edge.width=c(2),  vertex.frame.color=NA,vertex.color=V(g3.1)$phylacolor)
 
 dev.off()
 
@@ -320,35 +356,37 @@ cor4.1 <- cor4[rownames(cor4) %in% rownames(p4.1),]
 
 g4<-simplify(graph.edgelist(as.matrix(cor4.1[,c(1,2)]),directed=FALSE))
 
+cor4.2 <- cor4.1[abs(cor4.1$cor)>  .8,]
+
+g4.11<-simplify(graph.edgelist(as.matrix(cor4.2[,c(1,2)]),directed=FALSE))
+
+g4.2 = which(degree(g4.11)==0)
+g4.1 <- delete.vertices(g4.11, g4.2)
+
 #Add Phyla information to networks
-V(g4)$Class = as.character(drought_16s.3$Class1[match(V(g4)$name, drought_16s.3$OTU)])#Adds taxanomic information to the different verticies
-V(g4)$Class[is.na(V(g4)$Class)] <- "Other"
-V(g4)$classcolor = as.character(drought_16s.3$ClassColor[match(V(g4)$name, drought_16s.3$OTU)])
-V(g4)$classcolor[is.na(V(g4)$classcolor)] <- "black"
+V(g4.1)$Phylum = as.character(drought_16s.3$Phyla1[match(V(g4.1)$name, drought_16s.3$OTU)])#Adds taxanomic information to the different verticies
+V(g4.1)$Phylum[is.na(V(g4.1)$Phylum)] <- "Other"
+V(g4.1)$phylacolor = as.character(drought_16s.3$PhylaColor[match(V(g4.1)$name, drought_16s.3$OTU)])
+V(g4.1)$phylacolor[is.na(V(g4.1)$phylacolor)] <- "black"
 
-length(E(g4))
-length(V(g4))
+length(E(g4.1))
+length(V(g4.1))
 
-
-jpeg(filename="nfung4.jpeg", bg="transparent", res=3000, units = "in", height=5, width=5) 
+jpeg(filename="nbac4.jpeg", bg="transparent", res=4000, units = "in", height=5, width=5) 
 
 par(mar = rep(0, 4), xaxs='i', yaxs='i')
-plot.igraph(g4, vertex.label=NA, vertex.size=5, edge.color=ifelse(cor4.1$cor > 0, "blue","red"),
-            edge.width=c(2), vertex.frame.color=NA,vertex.color=V(g4)$classcolor)
+plot.igraph(g4.1, vertex.label=NA,vertex.size=5, edge.color=ifelse(cor4.2$cor > 0, "blue","red"),
+            edge.width=c(2), vertex.frame.color=NA,vertex.color=V(g4.1)$phylacolor)
 
 dev.off()
 
-jpeg(filename="fungleg.jpeg",res=3000,units = "in", height=5, width=3.25) 
-par(mar = rep(0, 4), xaxs='i', yaxs='i')
-plot(NULL ,xaxt='n',yaxt='n',bty='n',ylab='',xlab='', xlim=0:1, ylim=0:1)
-legend('center',legend=unique(V(g4)$Class),cex=1.5,pt.cex=2.5,pch=21,pt.bg=unique(V(g4)$classcolor))
-dev.off()
 
 
-spiec.graph5 <- g1
-spiec.graph6 <- g2
-spiec.graph7 <- g3
-spiec.graph8 <- g4
+spiec.graph5 <- g1.11
+spiec.graph6 <- g2.11
+spiec.graph7 <- g3.11
+spiec.graph8 <- g4.11
+
 
 #Normalized Degree
 
@@ -379,7 +417,6 @@ degree$LandUse <- as.factor(degree$LandUse)
 
 degree$Drought <- as.factor(degree$Drought)
 
-
 hist(degree$degree)
 glm2 <- glm(degree+.001~LandUse*Drought, data=degree,family=Gamma(link=log))
 Anova(glm2)
@@ -397,30 +434,28 @@ deg$Treatment <- factor(deg$Treatment, levels = c("Reference-Control", "Referenc
 deg$Treatment
 
 
-jpeg(filename="fung_deg.jpeg", bg="transparent", res=600, units = "in", height=4.5, width=6) 
-
-
 library(ggplot2)
-bar_plot_degree2<- ggplot(deg, aes(x=time, y=degree.mean, fill=Treatment)) + 
+
+jpeg(filename="bac_deg.jpeg", bg="transparent", res=600, units = "in", height=4.5, width=6) 
+
+bar_plot_degree<- ggplot(deg, aes(x=time, y=degree.mean, fill=Treatment)) + 
   geom_bar(stat="identity", color="black", size=1, position="dodge") +
   geom_errorbar(aes(ymin=degree.mean-se, ymax=degree.mean+se), width=0.2, size=1, position=position_dodge(0.9)) +
-  annotate('text', .7, .07, label="Drought: ~italic(P) < 0.001", size=4, parse=TRUE)+
-  annotate('text', .7, .065, label="Land~Use: italic(P) < 0.001", size = 4, parse=TRUE)+
-  annotate('text', .7
-           , .06, label="Land~Use %*% Drought: italic(P) == 0.512", size=4, parse=TRUE)+
+  annotate('text', 1.25, .0065, label="Drought: ~italic(P) == 0.018", fontface="bold",size=4, parse=TRUE)+
+  annotate('text', 1.25, .0061, label="Land~Use: italic(P) < 0.001", size = 4,fontface="bold", parse=TRUE)+
+  annotate('text', 1.25, .0057, label="Land~Use %*% Drought: italic(P)< 0.001", size=4,fontface="bold", parse=TRUE)+
   theme_classic() +
   scale_fill_brewer(palette="Set1") +
   theme(axis.title=element_text(size=20)) +
-  theme(legend.position="none")+
   theme(text=element_text(size=20)) +
   theme(legend.text = element_text(color = "black", size = 15)) +
   theme(axis.line.y=element_line(colour="black", size=1)) + 
   theme(legend.title=element_blank())+
+  theme(legend.position=c(.75,.55))+
   theme(axis.title.x=element_blank(),
         axis.text.x=element_blank()) +
-  ylab('Normalized Degree (ITS)') 
-#coord_cartesian(ylim=c(.0,.0065)) 
-plot(bar_plot_degree2)
+  ylab('Normalized Degree (16S)') 
+plot(bar_plot_degree)
 
 dev.off()
 
@@ -430,7 +465,6 @@ between5=data.frame(betweenness(spiec.graph5,normalized=TRUE))
 colnames(between5)
 names(between5)[names(between5) == "betweenness.spiec.graph5..normalized...TRUE."] <- "clustering"
 between5 <- data.frame(between = between5$clustering, Treatment = rep("Reference-Control",length(between5$clustering)),Drought = rep("Control",length(between5$clustering)), LandUse=rep("Reference",length(between5$clustering)),time=rep("Early",length(between5$clustering)))
-
 
 between6=data.frame(betweenness(spiec.graph6,normalized=TRUE))
 colnames(between6)
@@ -471,58 +505,42 @@ bet$Treatment <- factor(bet$Treatment, levels = c("Reference-Control", "Referenc
 bet$Treatment
 
 
+jpeg(filename="bac_bet.jpeg", bg="transparent", res=600, units = "in", height=4.5, width=6) 
 
-jpeg(filename="fung_bet.jpeg", bg="transparent", res=600, units = "in", height=4.5, width=6) 
-
-
-library(ggplot2)
-bar_plot_between2<- ggplot(bet, aes(x=time, y=between.mean, fill=Treatment)) + 
+bar_plot_between<- ggplot(bet, aes(x=time, y=between.mean, fill=Treatment)) + 
   geom_bar(stat="identity", color="black", size=1, position="dodge") +
   geom_errorbar(aes(ymin=between.mean-se, ymax=between.mean+se), width=0.2, size=1, position=position_dodge(0.9)) +
-  annotate('text', 1.1, .0165, label="Drought: ~italic(P) < 0.001", size=4, parse=TRUE)+
-  annotate('text', 1.1, .0155, label="Land~Use: italic(P) == 0.147", size = 4, parse=TRUE)+
-  annotate('text', 1.1, .0145, label="Land~Use %*% Drought: italic(P) == 0.488", size=4, parse=TRUE)+
+  annotate('text', 1.25, .00065, label="Drought: ~italic(P) == 0.017", size=4, parse=TRUE)+
+  annotate('text', 1.25, .0006, label="Land~Use: italic(P) < 0.001", size = 4, parse=TRUE)+
+  annotate('text', 1.25, .00055, label="Land~Use %*% Drought: italic(P) == 0.612", size=4, parse=TRUE)+
   theme_classic() +
   scale_fill_brewer(palette="Set1") +
   theme(axis.title=element_text(size=20)) +
   theme(text=element_text(size=20)) +
-  theme(legend.position = c(.6,.68)) +
   theme(legend.text = element_text(color = "black", size = 15)) +
   theme(axis.line.y=element_line(colour="black", size=1)) + 
   theme(legend.title=element_blank())+
+  theme(legend.position="none") +
   theme(axis.title.x=element_blank(),
         axis.text.x=element_blank()) +
-  ylab('Normalized Betweenness (ITS)') 
-plot(bar_plot_between2)
+  ylab('Normalized Betweenness (16S)') 
+plot(bar_plot_between)
+
 
 dev.off()
-
-setwd("C:/Users/ernie/OneDrive/Desktop/")
-
-jpeg(filename="net_metrics.jpeg", bg="transparent", res=600, units = "in", height=10, width=12) 
-
-f5 <- plot_grid(bar_plot_degree, bar_plot_between, bar_plot_degree2,bar_plot_between2, ncol = 2, labels=c('A', 'B','C','D'),align="hv", label_size=20)
-
-f5
-
-dev.off()
-
 
 #z test for negative edges
-n_e_cr=sum(cor1.1$cor < 0) #total number of negative edges for the disturbed
-t_e_cr=nrow(cor1.1)#total edges for the disturbed
-n_e_dr=sum(cor2.1$cor < 0) #total number of positive edges for the disturbed
-t_e_dr=nrow(cor2.1)#total edges for the reference
+n_e_cr=sum(cor1.2$cor < 0) #total number of negative edges for the disturbed
+t_e_cr=nrow(cor1.2)#total edges for the disturbed
+n_e_dr=sum(cor2.2$cor < 0) #total number of positive edges for the disturbed
+t_e_dr=nrow(cor2.2)#total edges for the reference
 
 prop.test(c(n_e_cr,n_e_dr),c(t_e_cr,t_e_dr))
 
-n_e_cd=sum(cor3.1$cor < 0) #total number of negative edges for the disturbed
-t_e_cd=nrow(cor3.1)#total edges for the disturbed
-n_e_dd=sum(cor4.1$cor < 0) #total number of positive edges for the disturbed
-t_e_dd=nrow(cor4.1)#total edges for the reference
+n_e_cd=sum(cor3.2$cor < 0) #total number of negative edges for the disturbed
+t_e_cd=nrow(cor3.2)#total edges for the disturbed
+n_e_dd=sum(cor4.2$cor < 0) #total number of positive edges for the disturbed
+t_e_dd=nrow(cor4.2)#total edges for the reference
 
 prop.test(c(n_e_cd,n_e_dd),c(t_e_cd,t_e_dd))
-
-
-
 
